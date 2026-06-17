@@ -20,17 +20,74 @@ export function AboutClient({ lang, about, team }: { lang: Lang; about: any; tea
           </div>
         </div>
       </section>
-      <section className="section section--dark">
-        <div className="container" style={{ maxWidth: 640 }}>
-          <SectionHeader eyebrow={about.milestonesEyebrow} title={about.milestonesTitle} light />
-          <div className="timeline">
-            {about.timeline.map((item: any) => (
-              <div key={item.year} className="timeline-item">
-                <div className="timeline-item__year">{item.year}</div>
-                <p className="timeline-item__event">{item.event}</p>
+      <section className="section section--light">
+        <div className="container">
+          <SectionHeader eyebrow={about.milestonesEyebrow} title={about.milestonesTitle} />
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(5, 1fr)",
+            gap: "1rem",
+            position: "relative",
+          }}>
+            {/* Connector line */}
+            <div style={{
+              position: "absolute",
+              top: 32,
+              left: "10%",
+              right: "10%",
+              height: 2,
+              background: "var(--shell-red)",
+              opacity: 0.2,
+              zIndex: 0,
+            }} />
+            {about.timeline.map((item: any, i: number) => (
+              <div key={item.year} style={{ position: "relative", zIndex: 1 }}>
+                {/* Year badge */}
+                <div style={{
+                  width: 64, height: 64,
+                  borderRadius: "50%",
+                  background: i === about.timeline.length - 1
+                    ? "linear-gradient(135deg, var(--shell-red), var(--shell-yellow))"
+                    : "var(--shell-red)",
+                  color: "#FFF",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: "0.875rem",
+                  fontWeight: 800,
+                  margin: "0 auto 1.25rem",
+                  boxShadow: "0 4px 20px rgba(221,29,33,0.2)",
+                }}>
+                  {item.year}
+                </div>
+                {/* Event card */}
+                <div style={{
+                  background: "#FFFFFF",
+                  borderRadius: 8,
+                  padding: "1.25rem",
+                  border: "1px solid #E5E5E5",
+                  boxShadow: "0 2px 8px rgba(0,0,0,0.03)",
+                }}>
+                  <p style={{
+                    fontSize: "0.8125rem",
+                    color: "var(--shell-gray)",
+                    lineHeight: 1.6,
+                  }}>
+                    {item.event}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
+
+          {/* Responsive: stack on mobile */}
+          <style jsx>{`
+            @media (max-width: 768px) {
+              .timeline-grid {
+                grid-template-columns: 1fr !important;
+              }
+            }
+          `}</style>
         </div>
       </section>
       <section className="section">
