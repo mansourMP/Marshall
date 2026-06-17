@@ -61,7 +61,7 @@ export function ProductionClient({ lang, production, team }: { lang: Lang; produ
         <div className="container">
           <SectionHeader eyebrow={production.teamEyebrow} title={production.teamTitle} />
           <div className="grid-2" style={{ maxWidth: 800, marginInline: "auto" }}>
-            {(team ?? []).map((m: any) => <TeamMemberCard key={m.id} member={m} />)}
+            {(team ?? []).filter((m: any) => m.id !== "founder").map((m: any) => <TeamMemberCard key={m.id} member={m} />)}
           </div>
         </div>
       </section>

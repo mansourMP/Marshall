@@ -94,7 +94,7 @@ export function AboutClient({ lang, about, team }: { lang: Lang; about: any; tea
         <div className="container">
           <SectionHeader eyebrow={about.leadershipEyebrow} title={about.leadershipTitle} />
           <div className="grid-2" style={{ maxWidth: 800, marginInline: "auto" }}>
-            {(team ?? []).map((m: any) => <TeamMemberCard key={m.id} member={m} />)}
+            {(team ?? []).filter((m: any) => m.id !== "founder").map((m: any) => <TeamMemberCard key={m.id} member={m} />)}
           </div>
         </div>
       </section>
