@@ -1,0 +1,22 @@
+<svg width="400" height="240" viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="240" rx="12" fill="#ECFEFF"/>
+  <!-- Coolant jug -->
+  <rect x="140" y="40" width="120" height="150" rx="16" fill="#0D9488"/>
+  <rect x="140" y="40" width="120" height="150" rx="16" fill="url(#coolGrad)" opacity="0.6"/>
+  <!-- Handle -->
+  <path d="M260 50 L280 50 Q300 50 300 80 L300 120 Q300 150 280 150 L260 150" fill="none" stroke="#0F766E" stroke-width="14" stroke-linecap="round"/>
+  <!-- Cap -->
+  <rect x="180" y="22" width="40" height="22" rx="4" fill="#FBCE07"/>
+  <!-- Label -->
+  <rect x="155" y="90" width="90" height="50" rx="4" fill="white" opacity="0.9"/>
+  <text x="200" y="112" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="9" fill="#0D9488">ANTIFREEZE</text>
+  <text x="200" y="127" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="9" fill="#0F172A">COOLANT -37°C</text>
+  <!-- Snowflake -->
+  <text x="200" y="78" text-anchor="middle" font-size="16">❄️</text>
+  <defs>
+    <linearGradient id="coolGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+  </defs>
+</svg>

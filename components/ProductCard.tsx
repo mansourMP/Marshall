@@ -17,25 +17,24 @@ type ProductCardProps = {
   lang?: string;
 };
 
+const PRODUCT_IMAGES: Record<string, string> = {
+  "premium-engine-oil": "/images/product-premium-oil.svg",
+  "standard-engine-oil": "/images/product-standard-oil.svg",
+  antifreeze: "/images/product-antifreeze.svg",
+  "brake-fluid": "/images/product-brake-fluid.svg",
+  grease: "/images/product-grease.svg",
+};
+
 export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
-  const getGradient = (id: string) => {
-    switch (id) {
-      case "premium-engine-oil":
-      case "standard-engine-oil":
-        return "linear-gradient(135deg, #F59E0B, #D97706)"; // Warm Amber
-      case "antifreeze":
-        return "linear-gradient(135deg, #2DD4BF, #0D9488)"; // Teal/Blue
-      case "brake-fluid":
-      case "grease":
-        return "linear-gradient(135deg, #94A3B8, #475569)"; // Professional Grey
-      default:
-        return "linear-gradient(135deg, var(--shell-gray), var(--shell-black))";
-    }
-  };
 
   return (
     <article className="card" style={{ overflow: "hidden" }}>
-      <div className="card__image" style={{ position: "relative", height: "160px", background: getGradient(product.id) }}>
+      <div className="card__image" style={{ position: "relative", height: "180px", background: "#F8FAFC", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <img
+          src={PRODUCT_IMAGES[product.id] ?? "/images/product-premium-oil.svg"}
+          alt={product.name}
+          style={{ width: "100%", height: "100%", objectFit: "contain", padding: "0.5rem" }}
+        />
         {product.highlight && (
           <span
             style={{

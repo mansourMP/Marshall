@@ -1,0 +1,22 @@
+<svg width="400" height="240" viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="240" rx="12" fill="#FFF7ED"/>
+  <!-- Grease bucket -->
+  <path d="M145 60 L140 170 Q140 185 155 185 L245 185 Q260 185 260 170 L255 60 Z" fill="#EA580C"/>
+  <path d="M145 60 L140 170 Q140 185 155 185 L245 185 Q260 185 260 170 L255 60 Z" fill="url(#greaseGrad)" opacity="0.5"/>
+  <!-- Lid -->
+  <rect x="135" y="50" width="130" height="18" rx="4" fill="#9A3412"/>
+  <!-- Handle -->
+  <path d="M170 50 Q170 25 200 25 Q230 25 230 50" fill="none" stroke="#9A3412" stroke-width="6" stroke-linecap="round"/>
+  <!-- Label -->
+  <rect x="165" y="95" width="70" height="45" rx="4" fill="white" opacity="0.9"/>
+  <text x="200" y="115" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="9" fill="#EA580C">GREASE</text>
+  <text x="200" y="130" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="9" fill="#0F172A">MULTIPURPOSE</text>
+  <!-- Grease blob on top -->
+  <ellipse cx="200" cy="62" rx="30" ry="10" fill="#F97316" opacity="0.6"/>
+  <defs>
+    <linearGradient id="greaseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+</svg>

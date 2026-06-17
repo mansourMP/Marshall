@@ -1,0 +1,16 @@
+<svg width="400" height="240" viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="240" rx="12" fill="#F1F5F9"/>
+  <!-- Oil barrel -->
+  <ellipse cx="200" cy="60" rx="65" ry="18" fill="#475569"/>
+  <rect x="135" y="60" width="130" height="110" fill="#64748B"/>
+  <ellipse cx="200" cy="170" rx="65" ry="18" fill="#334155"/>
+  <ellipse cx="200" cy="60" rx="55" ry="12" fill="#94A3B8"/>
+  <!-- Barrel rings -->
+  <line x1="135" y1="90" x2="265" y2="90" stroke="#475569" stroke-width="3"/>
+  <line x1="135" y1="140" x2="265" y2="140" stroke="#475569" stroke-width="3"/>
+  <!-- Label area -->
+  <rect x="160" y="100" width="80" height="30" rx="3" fill="#FBCE07"/>
+  <text x="200" y="120" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="10" fill="#0F172A">STANDARD OIL</text>
+  <!-- Drip -->
+  <path d="M200 170 L195 185 Q200 192 205 185 Z" fill="#FBCE07" opacity="0.6"/>
+</svg>
