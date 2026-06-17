@@ -18,11 +18,16 @@ type ProductCardProps = {
 };
 
 const PRODUCT_IMAGES: Record<string, string> = {
-  "premium-engine-oil": "/images/product-premium-oil.svg",
-  "standard-engine-oil": "/images/product-standard-oil.svg",
-  antifreeze: "/images/product-antifreeze.svg",
-  "brake-fluid": "/images/product-brake-fluid.svg",
-  grease: "/images/product-grease.svg",
+  "premium-engine-oil":
+    "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&h=400&fit=crop&auto=format",
+  "standard-engine-oil":
+    "https://images.unsplash.com/photo-1621600411689-2f2d3b6c9e8f?w=600&h=400&fit=crop&auto=format",
+  antifreeze:
+    "https://images.unsplash.com/photo-1631531780022-3e64b0b6e4e7?w=600&h=400&fit=crop&auto=format",
+  "brake-fluid":
+    "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop&auto=format",
+  grease:
+    "https://images.unsplash.com/photo-1530124566589-75a5c72e28c1?w=600&h=400&fit=crop&auto=format",
 };
 
 export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
