@@ -99,26 +99,31 @@ export function Navbar() {
         </nav>
 
         <div className="marshal-navbar__actions">
-          {!pathname.endsWith("/contact/") && (
-            <>
-              <button
-                className="btn btn--outline marshal-navbar__cta"
-                onClick={() => {
-                  if (window.location.pathname.endsWith("/contact/")) {
-                    document.getElementById("investment-section")?.scrollIntoView({ behavior: "smooth" });
-                  } else {
-                    window.dispatchEvent(new CustomEvent("open-investment-modal"));
-                  }
-                }}
-                style={{ border: "2px solid var(--shell-red)", color: "var(--shell-red)" }}
-              >
-                {tn("home.hero.secondaryCta")}
-              </button>
-              <Link href={`/${lang}/contact/`} className="btn btn--primary marshal-navbar__cta">
-                {tn("nav.partnerWithUs")}
-              </Link>
-            </>
-          )}
+          <button
+            className="btn btn--outline marshal-navbar__cta"
+            onClick={() => {
+              if (window.location.pathname.endsWith("/contact/")) {
+                document.getElementById("investment-section")?.scrollIntoView({ behavior: "smooth" });
+              } else {
+                window.dispatchEvent(new CustomEvent("open-investment-modal"));
+              }
+            }}
+            style={{ border: "2px solid var(--shell-red)", color: "var(--shell-red)" }}
+          >
+            {tn("home.hero.secondaryCta")}
+          </button>
+          <Link
+            href={`/${lang}/contact/`}
+            className="btn btn--primary marshal-navbar__cta"
+            onClick={(e: React.MouseEvent) => {
+              if (window.location.pathname.endsWith("/contact/")) {
+                e.preventDefault();
+                document.getElementById("partner-section")?.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
+            {tn("nav.partnerWithUs")}
+          </Link>
           <button
             className={`marshal-navbar__hamburger${mobileOpen ? " is-open" : ""}`}
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -191,11 +196,19 @@ export function Navbar() {
             );
           })}
         </div>
-        {!pathname.endsWith("/contact/") && (
-          <Link href={`/${lang}/contact/`} className="btn btn--primary" style={{ width: "100%", marginTop: "2rem" }}>
-            {tn("nav.partnerWithUs")}
-          </Link>
-        )}
+        <Link
+          href={`/${lang}/contact/`}
+          className="btn btn--primary"
+          style={{ width: "100%", marginTop: "2rem" }}
+          onClick={(e: React.MouseEvent) => {
+            if (window.location.pathname.endsWith("/contact/")) {
+              e.preventDefault();
+              document.getElementById("partner-section")?.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
+          {tn("nav.partnerWithUs")}
+        </Link>
       </nav>
 
       <style jsx>{`
