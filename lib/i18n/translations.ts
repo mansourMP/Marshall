@@ -863,16 +863,15 @@ export const t: Translations = {
 
   // UZBEK
 
-  uz: {
+uz: {
     site: {
       title: "Marshall — Markaziy Osiyoda ishlab chiqarilgan premium moylash materiallari",
-      description:
-        "Marshall Surxondaryoda (O'zbekiston) yuqori sifatli motor moylari, antifriz, tormoz suyuqligi va surkov moylarini ishlab chiqaradi. 70+ tonna/oy quvvat. 15+ korporativ mijoz. 2022 yildan beri.",
+      description: "Marshall kompaniyasi Surxondaryo viloyatida yuqori sifatli motor moylari, antifriz, tormoz suyuqligi va surkov materiallarini ishlab chiqaradi. Oyiga 70+ tonna quvvat. 15+ korporativ mijoz. 2022-yildan buyon bozorda.",
     },
     brand: {
       name: "Marshall",
       tagline: "Markaziy Osiyoda ishlab chiqarilgan premium moylash materiallari",
-      location: "Surxondaryo, Sariosiyo, O'zbekiston",
+      location: "Surxondaryo viloyati, Sariosiyo tumani, O'zbekiston",
       founded: 2022,
       email: "mansurao886@gmail.com",
       phone: "+998 90 519 0007",
@@ -885,596 +884,167 @@ export const t: Translations = {
       trade: "Hamkorlik",
       contact: "Aloqa",
       partnerWithUs: "Hamkor bo'ling",
-      whatWeDo: "Faoliyat",
-      partners: "Hamkorlarga",
-      company: "Kompaniya",
     },
     home: {
       hero: {
-        headline: "Marshall — Markaziy Osiyoda ishlab chiqarilgan premium moylash materiallari",
-        subheadline:
-          "70+ tonna/oy quvvat. 15+ korporativ mijoz. 2022 yildan beri Surxondaryoda (O'zbekiston) ishlab chiqariladi.",
+        headline: "MARSHALL GROUP — SIZNING ISHONCHLI HAMKORINGIZ",
+        subheadline: "Sanoat materiallari, kimyoviy mahsulotlar va premium moylash materiallari bo'yicha ekspertiza. Oyiga 70+ tonna quvvat. 2022-yildan buyon Surxondaryoda ishlab chiqariladi.",
         primaryCta: "Hamkor bo'ling",
         secondaryCta: "Investorlar uchun",
       },
       trustStats: [
-        { value: "15", label: "Tashkilotga xizmat ko'rsatiladi", suffix: "+" },
+        { value: "15", label: "Tashkilotlarga xizmat", suffix: "+" },
         { value: "1,200", label: "Yillik quvvat (tonna)", suffix: "+" },
-        { value: "2022", label: "Tashkil etilgan" },
+        { value: "2022", label: "Tashkil etilgan yil" },
         { value: "Surxondaryo", label: "O'zbekiston" },
       ],
       whatWeDo: {
-        eyebrow: "Biz nima qilamiz",
-        title: "Motor moylari, antifriz, tormoz suyuqligi va surkov moylari ishlab chiqarish",
+        eyebrow: "Bizning faoliyat",
+        title: "Motor moylari, antifriz, tormoz suyuqligi va surkov materiallari ishlab chiqarish",
         cards: [
-          {
-            title: "Premium motor moylari",
-            body: "Markaziy Osiyo sharoitlari uchun ishlab chiqilgan yuqori sifatli va standart motor moylari. Yengil, tijorat va sanoat uchun 70+ tonna oylik ishlab chiqarish quvvati.",
-          },
-          {
-            title: "Antifriz va suyuqliklar",
-            body: "Etilen glikol sovutish suyuqliklari, DOT 4 tormoz suyuqligi va maxsus suyuqliklar. Oyiga 30 tonna antifriz — tayyor eritma va konsentrat.",
-          },
-          {
-            title: "OEM va xususiy brend",
-            body: "Buyurtma asosida retsepturalar, xususiy brend qadoqlash va kontrakt ishlab chiqarish. Sizning brendingiz, bizning sifatimiz — moslashuvchan minimal buyurtma hajmi bilan.",
-          },
+          { title: "Premium motor moylari", body: "Markaziy Osiyo iqlim sharoitlariga moslashtirilgan yuqori sifatli motor moylari. Yengil avtomobillar, tijorat transporti va sanoat ehtiyojlari uchun oyiga 70+ tonna ishlab chiqarish quvvati." },
+          { title: "Antifriz va suyuqliklar", body: "Etilen glikol asosidagi sovutish suyuqliklari, DOT 4 tormoz suyuqligi va maxsus suyuqliklar. Tayyor eritma va konsentrat ko'rinishida oyiga 30 tonna antifriz." },
+          { title: "OEM va xususiy brend", body: "Buyurtma asosida retsepturalar ishlab chiqish, xususiy brend uchun qadoqlash va kontrakt asosida ishlab chiqarish. Sizning brendingiz — bizning sifatimiz. Moslashuvchan minimal buyurtma hajmi." },
         ],
       },
-      byTheNumbers: {
-        eyebrow: "Raqamlarda",
-        title: "Kengaytirishga tayyor ishlab chiqarish quvvati",
-      },
+      byTheNumbers: { eyebrow: "Raqamlarda", title: "Kengaytirishga tayyor ishlab chiqarish quvvati" },
       whoTrustsUs: {
-        eyebrow: "Bizga kim ishonadi",
-        title: "Turli sohalardan 15+ tashkilot",
-        body: "Avtomobil ehtiyot qismlari sotuvchilaridan tortib transport kompaniyalari va sanoat ishlab chiqaruvchilarigacha — Marshall moylash materiallari butun O'zbekiston bo'ylab biznesni quvvatlaydi.",
+        eyebrow: "Bizga kimlar ishonadi",
+        title: "Turli sohalardagi 15+ tashkilot",
+        body: "Avtomobil ehtiyot qismlari do'konlaridan tortib transport kompaniyalari va sanoat korxonalarigacha — Marshall mahsulotlari butun O'zbekiston bo'ylab bizneslarni quvvatlab kelmoqda.",
       },
       stats: [
-        { value: "70", label: "Oyiga moy (tonna)", suffix: "+" },
+        { value: "70", label: "Oyiga motor moyi (tonna)", suffix: "+" },
         { value: "30", label: "Oyiga antifriz (tonna)", suffix: "" },
         { value: "10", label: "Hudud — Sotix", suffix: " sotix" },
         { value: "250,000", label: "USKUNAGA INVESTITSIYA", suffix: " USD" },
       ],
-      ctaTitle: "Marshall bilan hamkorlikka tayyormisiz?",
-      ctaBody: "To'liq mahsulot assortimentimizni ko'ring va biz sizning biznesingizni qanday ta'minlashimiz mumkinligini bilib oling.",
+      ctaTitle: "Marshall bilan hamkorlik qilishga tayyormisiz?",
+      ctaBody: "Barcha mahsulotlarimiz bilan tanishing va biz sizning biznesingizni qanday ta'minlashimiz mumkinligini bilib oling.",
       ctaLabel: "Mahsulotlarni ko'rish",
     },
     products: {
-      hero: {
-        headline: "Markaziy Osiyo sharoitlari uchun ishlab chiqilgan",
-        subheadline:
-          "Har bir Marshall mahsuloti ekstremal haroratlarda ishlash uchun ishlab chiqilgan — qishki sovuq ishga tushirishdan tortib yozgi magistral jaziramasigacha.",
-      },
+      hero: { headline: "Markaziy Osiyo sharoitlari uchun yaratilgan", subheadline: "Har bir Marshall mahsuloti ekstremal haroratlarda ishlash uchun maxsus ishlab chiqilgan — sovuq qish ertalablaridan tortib jazirama yoz kunlarigacha." },
       sectionEyebrow: "Mahsulotlar",
       sectionTitle: "To'liq moylash materiallari va suyuqliklar assortimenti",
       items: [
-        {
-          id: "premium-engine-oil",
-          name: "Premium motor moyi",
-          tagline: "Zamonaviy dvigatellar uchun yuqori samarali himoya",
-          description:
-            "Aşınmaya qarshi yuqori himoya, termal barqarorlik va dvigatel tozaligi uchun ilg'or qo'shimchalar bilan ishlab chiqilgan. Markaziy Osiyoning ekstremal iqlim sharoitida ishlaydigan yengil avtomobillar, SUV va yengil tijorat transporti uchun mo'ljallangan.",
-          capacity: "20 tonna/oy",
-          specs: [
-            { label: "Qovushqoqlik sinflari", value: "5W-30, 10W-40, 15W-40" },
-            { label: "API standartlari", value: "API SN, SM, SL" },
-            { label: "Asos moyi", value: "Sintetik qo'shimchali yuqori sifatli mineral" },
-            { label: "Qadoqlash", value: "1L, 4L, 5L, 20L, 200L" },
-            { label: "Mos keladi", value: "Benzin va yengil dizel dvigatellari" },
-          ],
-          applications: [
-            "Yengil avtomobillar",
-            "SUV va krossoverlar",
-            "Yengil tijorat transporti",
-            "Uzaytirilgan almashtirish oralig'iga ega avtoparklar",
-          ],
-          highlight: true,
-        },
-        {
-          id: "standard-engine-oil",
-          name: "Standart motor moyi",
-          tagline: "Iqtisodiy narxda ishonchli himoya",
-          description:
-            "Kundalik haydash sharoitlari uchun mustahkam aşınma himoyasi va cho'kindi nazoratini ta'minlovchi ishonchli mineral asosli motor moyi. Eski avtomobillar, yuqori bosib o'tgan dvigatellar va tejamkor avtopark operatorlari uchun ideal.",
-          capacity: "50 tonna/oy",
-          specs: [
-            { label: "Qovushqoqlik sinflari", value: "10W-40, 15W-40, 20W-50" },
-            { label: "API standartlari", value: "API SL, SJ" },
-            { label: "Asos moyi", value: "Mineral" },
-            { label: "Qadoqlash", value: "1L, 4L, 5L, 20L, 200L" },
-            { label: "Mos keladi", value: "Eski benzin dvigatellari, yengil dizellar" },
-          ],
-          applications: [
-            "Eski avtomobil modellari",
-            "Yuqori bosib o'tgan dvigatellar",
-            "Avtoparklar",
-            "Qishloq xo'jaligi texnikasi",
-          ],
-        },
-        {
-          id: "antifreeze",
-          name: "Antifriz / Sovutish suyuqligi",
-          tagline: "Butun mavsum davomida dvigatel sovutish va korroziyadan himoya",
-          description:
-            "Ilg'or korroziya ingibitori paketiga ega etilen glikol asosli sovutish suyuqligi. Dvigatellarni qishda muzlashdan (-37°C) va yozda qaynashdan (+129°C) himoya qiladi. Alyuminiy, cho'yan, mis va latun sovutish tizimlari bilan mos keladi.",
-          capacity: "30 tonna/oy",
-          specs: [
-            { label: "Turi", value: "Etilen glikol konsentrati va tayyor eritma" },
-            { label: "Muzlashdan himoya", value: "-37°C (konsentrat)" },
-            { label: "Qaynashdan himoya", value: "+129°C" },
-            { label: "Rangi", value: "Yashil, qizil, ko'k (spetsifikatsiyaga ko'ra)" },
-            { label: "Qadoqlash", value: "1L, 5L, 20L, 200L" },
-          ],
-          applications: [
-            "Yengil avtomobillar",
-            "Yuk mashinalari va og'ir texnika",
-            "Sanoat dvigatellari",
-            "Isitish va sovutish tizimlari",
-          ],
-          highlight: true,
-        },
-        {
-          id: "brake-fluid",
-          name: "Tormoz suyuqligi",
-          tagline: "Yuqori qaynash nuqtasi, ishonchli to'xtash kuchi",
-          description:
-            "DOT 4 spetsifikatsiyalariga javob beradigan poliglikol asosli tormoz suyuqligi. Yuqori quruq va nam qaynash nuqtalari og'ir foydalanish va nam sharoitlarda barqaror tormoz ishini ta'minlaydi.",
-          capacity: "Buyurtma bo'yicha mavjud",
-          specs: [
-            { label: "Standart", value: "DOT 4" },
-            { label: "Quruq qaynash nuqtasi", value: ">260°C" },
-            { label: "Nam qaynash nuqtasi", value: ">165°C" },
-            { label: "Qadoqlash", value: "0.5L, 1L, 5L" },
-          ],
-          applications: [
-            "Yengil avtomobillar",
-            "Mototsikllar",
-            "Yengil tijorat transporti",
-          ],
-        },
-        {
-          id: "grease",
-          name: "Universal surkov moyi",
-          tagline: "Podshipniklar va shassi uchun og'ir yuk moylash",
-          description:
-            "Mukammal mexanik barqarorlik, suvga chidamlilik va korroziyadan himoyalangan litiy asosli surkov moyi. Avtomobil, qishloq xo'jaligi va sanoat uchun mos.",
-          capacity: "Buyurtma bo'yicha mavjud",
-          specs: [
-            { label: "Turi", value: "Litiy kompleksi" },
-            { label: "NLGI sinfi", value: "2" },
-            { label: "Tomchilash nuqtasi", value: ">190°C" },
-            { label: "Qadoqlash", value: "400g kartridj, 1kg, 5kg, 18kg" },
-          ],
-          applications: [
-            "G'ildirak podshipniklari",
-            "Shassi moylash",
-            "Sanoat uskunalari",
-            "Qishloq xo'jaligi texnikasi",
-          ],
-        },
+        { id: "premium-engine-oil", name: "Premium motor moyi", tagline: "Zamonaviy dvigatellar uchun yuqori darajadagi himoya", description: "Aşınmaya qarshi ilg'or himoya, termal barqarorlik va dvigatel tozaligini ta'minlovchi zamonaviy qo'shimchalar asosida ishlab chiqilgan. Markaziy Osiyoning keskin iqlim sharoitida ishlovchi yengil avtomobillar, SUV va yengil tijorat transporti uchun mo'ljallangan.", capacity: "20 tonna/oy", specs: [{ label: "Qovushqoqlik sinflari", value: "5W-30, 10W-40, 15W-40" }, { label: "API standartlari", value: "API SN, SM, SL" }, { label: "Asos moyi", value: "Sintetik qo'shimchali yuqori sifatli mineral" }, { label: "Qadoqlash", value: "1L, 4L, 5L, 20L, 200L" }, { label: "Mos keladi", value: "Benzin va yengil dizel dvigatellari" }], applications: ["Yengil avtomobillar", "SUV va krossoverlar", "Yengil tijorat transporti", "Uzaytirilgan almashtirish oralig'idagi avtoparklar"], highlight: true },
+        { id: "standard-engine-oil", name: "Standart motor moyi", tagline: "Qulay narxda ishonchli himoya", description: "Kundalik foydalanish uchun mustahkam aşınma himoyasi va cho'kindi nazoratini ta'minlovchi ishonchli mineral asosli motor moyi. Eski avtomobillar, katta bosib o'tilgan dvigatellar va tejamkor avtopark operatorlari uchun eng yaxshi tanlov.", capacity: "50 tonna/oy", specs: [{ label: "Qovushqoqlik sinflari", value: "10W-40, 15W-40, 20W-50" }, { label: "API standartlari", value: "API SL, SJ" }, { label: "Asos moyi", value: "Mineral" }, { label: "Qadoqlash", value: "1L, 4L, 5L, 20L, 200L" }, { label: "Mos keladi", value: "Eski benzin dvigatellari, yengil dizellar" }], applications: ["Eski avtomobil modellari", "Katta bosib o'tilgan dvigatellar", "Avtoparklar", "Qishloq xo'jaligi texnikasi"] },
+        { id: "antifreeze", name: "Antifriz / Sovutish suyuqligi", tagline: "Butun mavsum davomida dvigatelni sovutish va korroziyadan himoya", description: "Kuchaytirilgan korroziya ingibitorlari bilan boyitilgan etilen glikol asosidagi sovutish suyuqligi. Dvigatelni qishda muzlashdan (-37°C) va yozda qaynashdan (+129°C) himoya qiladi. Alyuminiy, cho'yan, mis va latun sovutish tizimlari bilan mos keladi.", capacity: "30 tonna/oy", specs: [{ label: "Turi", value: "Etilen glikol konsentrati va tayyor eritma" }, { label: "Muzlashdan himoya", value: "-37°C (konsentrat)" }, { label: "Qaynashdan himoya", value: "+129°C" }, { label: "Rangi", value: "Yashil, qizil, ko'k (talabga ko'ra)" }, { label: "Qadoqlash", value: "1L, 5L, 20L, 200L" }], applications: ["Yengil avtomobillar", "Yuk mashinalari va og'ir texnika", "Sanoat dvigatellari", "Isitish va sovutish tizimlari"], highlight: true },
+        { id: "brake-fluid", name: "Tormoz suyuqligi", tagline: "Yuqori qaynash harorati, ishonchli to'xtash kuchi", description: "DOT 4 standartlariga javob beradigan poliglikol asosidagi tormoz suyuqligi. Yuqori quruq va nam qaynash haroratlari og'ir sharoitlarda ham barqaror tormoz tizimi ishlashini ta'minlaydi.", capacity: "Buyurtma asosida", specs: [{ label: "Standart", value: "DOT 4" }, { label: "Quruq qaynash nuqtasi", value: ">260°C" }, { label: "Nam qaynash nuqtasi", value: ">165°C" }, { label: "Qadoqlash", value: "0.5L, 1L, 5L" }], applications: ["Yengil avtomobillar", "Mototsikllar", "Yengil tijorat transporti"] },
+        { id: "grease", name: "Universal surkov moyi", tagline: "Podshipniklar va shassi uchun og'ir yuklarga chidamli moylash", description: "Ajoyib mexanik barqarorlik, suvga chidamlilik va korroziyadan himoyalangan litiy asosidagi surkov moyi. Avtomobilsozlik, qishloq xo'jaligi va sanoat uchun mos keladi.", capacity: "Buyurtma asosida", specs: [{ label: "Turi", value: "Litiy kompleks" }, { label: "NLGI klassi", value: "2" }, { label: "Tomchilash harorati", value: ">190°C" }, { label: "Qadoqlash", value: "400g kartridj, 1kg, 5kg, 18kg" }], applications: ["G'ildirak podshipniklari", "Shassi moylash", "Sanoat uskunalari", "Qishloq xo'jaligi texnikasi"] },
       ],
-      oem: {
-        eyebrow: "OEM va xususiy brend",
-        title: "Sizning brendingiz, bizning retseptura tajribamiz",
-        body: "Biz xususiy brend ostida to'liq ishlab chiqarish xizmatlarini taklif qilamiz. Mavjud retsepturalarimizdan tanlang yoki kimyoviy muhandislik jamoamiz bilan bozoringiz uchun maxsus aralashmalar ishlab chiqing.",
-        capabilities: [
-          "Buyurtma qovushqoqlik sinflari va qo'shimcha paketlari",
-          "Xususiy brend qadoqlash dizayni va ishlab chiqarish",
-          "Moslashuvchan minimal buyurtma hajmlari",
-          "To'liq texnik hujjatlar va xavfsizlik pasportlari",
-          "Har bir partiya bilan sifat sertifikatlari",
-        ],
-      },
-      comingSoon: {
-        title: "Tez orada: Havo filtrlari",
-        body: "Marshall avtomobil havo filtrlari ishlab chiqarishni kengaytirmoqda. Dvigatel havo filtrlari, salon filtrlari va moy filtrlari — bir xil sifat, bir xil ishonchlilik. Ishlab chiqarish liniyasi ishlab chiqilmoqda.",
-      },
+      oem: { eyebrow: "OEM va xususiy brend", title: "Sizning brendingiz — bizning retseptura tajribamiz", body: "Xususiy brend ostida to'liq ishlab chiqarish xizmatlarini taklif qilamiz. Tayyor retsepturalarimizdan tanlang yoki kimyoviy muhandislar jamoamiz bilan birgalikda bozoringiz uchun maxsus aralashmalar ishlab chiqing.", capabilities: ["Buyurtma qovushqoqlik sinflari va qo'shimchalar paketi", "Xususiy brend uchun qadoqlash dizayni va ishlab chiqarish", "Moslashuvchan minimal buyurtma hajmi", "To'liq texnik hujjatlar va SDS taqdim etiladi", "Har bir partiya bilan sifat sertifikatlari"] },
+      comingSoon: { title: "Tez orada: Havo filtrlari", body: "Marshall avtomobil havo filtrlari ishlab chiqarishni yo'lga qo'ymoqda. Dvigatel havo filtrlari, salon filtrlari va moy filtrlari — bir xil yuqori sifat va ishonchlilik. Ishlab chiqarish liniyasi tayyorlanmoqda." },
       ctaTitle: "Maxsus retsepturalar kerakmi?",
-      ctaBody: "OEM, xususiy brend yoki buyurtma aralashma talablarini muhokama qilish uchun biz bilan bog'laning.",
-      ctaLabel: "Spetsifikatsiyalarni so'rash",
-      featuredProduct: "Tavsiya etilgan mahsulot",
-      specifications: "Xususiyatlari",
-      applications: "Qo'llanilishi",
+      ctaBody: "OEM, xususiy brend yoki individual aralashmalar bo'yicha muhokama uchun biz bilan bog'laning.",
+      ctaLabel: "Texnik spetsifikatsiyalarni so'rash",
     },
     production: {
-      hero: {
-        headline: "Surxondaryoda ishlab chiqarilgan, kengaytirishga tayyor",
-        subheadline:
-          "10 соток ishlab chiqarish majmuasi — alohida moy aralashtirish, antifriz ishlab chiqarish, sifat nazorati laboratoriyasi va qadoqlash liniyalari.",
-      },
-      facility: {
-        eyebrow: "Ishlab chiqarish ko'rinishi",
-        title: "10 соток maqsadli qurilgan ishlab chiqarish maydoni",
-        body: "Sariosiyodagi (Surxondaryo viloyati) majmuamiz samarali rejalashtirishni sifatga yo'naltirilgan jarayonlar bilan birlashtiradi. Moy ishlab chiqarish liniyasi $250,000 uskuna investitsiyasini tashkil etadi va o'sish uchun sezilarli quvvat zaxirasiga ega.",
-        details: [
-          { label: "Umumiy maydon", value: "10 соток" },
-          { label: "Moy ishlab chiqarish zonasi", value: "Alohida aralashtirish va qadoqlash" },
-          { label: "Antifriz ishlab chiqarish", value: "15 m² alohida liniya" },
-          { label: "USKUNAGA INVESTITSIYA", value: "$250,000+" },
-          { label: "Quvvatdan foydalanish", value: "Kengaytiriladigan — sezilarli zaxira" },
-        ],
-      },
-      process: {
-        eyebrow: "Jarayon",
-        title: "Xom ashyodan tayyor mahsulotgacha",
-        steps: [
-          {
-            step: "01",
-            title: "Xom ashyo yetkazib berish",
-            body: "Asos moylari va qo'shimchalar malakali yetkazib beruvchilardan olinadi. Har bir xom ashyo partiyasi ishlab chiqarishga kiritishdan oldin sinovdan o'tkaziladi.",
-          },
-          {
-            step: "02",
-            title: "Aniq aralashtirish",
-            body: "Kompyuter o'lchovli aralashtirish aniq qovushqoqlik va qo'shimcha konsentratsiyasini ta'minlaydi. Kimyoviy muhandislik jamoamiz har bir ishlab chiqarish jarayonini nazorat qiladi.",
-          },
-          {
-            step: "03",
-            title: "Sifat nazorati sinovlari",
-            body: "Har bir partiyadan namunalar laboratoriya sinovlaridan o'tadi — qovushqoqlik indeksi, chaqnash nuqtasi, quyilish nuqtasi, TBN va ifloslantiruvchi skrining.",
-          },
-          {
-            step: "04",
-            title: "Qadoqlash va distributsiya",
-            body: "1L dan 200L gacha formatlarda quyish, markalash va qadoqlash. Mahsulotlar palletlanadi va O'zbekiston bo'ylab hamda undan tashqariga yetkazib berishga tayyor.",
-          },
-        ],
-      },
+      hero: { headline: "Surxondaryoda ishlab chiqarilgan — kengaytirishga tayyor", subheadline: "Motor moylari aralashtirish, antifriz ishlab chiqarish, sifat nazorati laboratoriyasi va qadoqlash liniyalariga ega 10 sotixlik ishlab chiqarish majmuasi." },
+      facility: { eyebrow: "Ishlab chiqarish haqida", title: "Maqsadli qurilgan 10 sotix ishlab chiqarish maydoni", body: "Sariosiyo tumanida (Surxondaryo viloyati) joylashgan majmuamiz samarali rejalashtirish va sifatga yo'naltirilgan jarayonlarni birlashtiradi. Moy ishlab chiqarish liniyasiga kiritilgan investitsiya $250,000 ni tashkil etadi va kengaytirish uchun sezilarli quvvat zaxirasi mavjud.", details: [{ label: "Umumiy maydon", value: "10 sotix" }, { label: "Moy ishlab chiqarish zonasi", value: "Alohida aralashtirish va qadoqlash" }, { label: "Antifriz ishlab chiqarish", value: "Alohida liniya" }, { label: "Uskunaga investitsiya", value: "$250,000+" }, { label: "Quvvatdan foydalanish", value: "Kengaytirish imkoniyati mavjud" }] },
+      process: { eyebrow: "Jarayon", title: "Xom ashyodan tayyor mahsulotgacha", steps: [{ step: "01", title: "Xom ashyo yetkazib berish", body: "Asos moylari va qo'shimchalar ishonchli yetkazib beruvchilardan olinadi. Har bir xom ashyo partiyasi ishlab chiqarishga kiritishdan oldin sinovdan o'tkaziladi." }, { step: "02", title: "Aniq aralashtirish", body: "Kompyuter yordamida o'lchangan aralashtirish aniq qovushqoqlik va qo'shimcha konsentratsiyasini kafolatlaydi. Kimyoviy muhandislar jamoamiz har bir ishlab chiqarish siklini nazorat qiladi." }, { step: "03", title: "Sifat nazorati sinovlari", body: "Har bir partiyadan namunalar laboratoriya sinovlaridan o'tkaziladi — qovushqoqlik indeksi, chaqnash harorati, quyilish harorati, TBN va ifloslantiruvchi moddalar tekshiruvi." }, { step: "04", title: "Qadoqlash va yetkazib berish", body: "1L dan 200L gacha bo'lgan hajmlarda quyish, markalash va qadoqlash. Mahsulotlar palletlanadi va butun O'zbekiston hamda undan tashqariga yetkazib berishga tayyor." }] },
       teamEyebrow: "Jamoa",
       teamTitle: "Texnik yetakchilik va soha ekspertizasi",
-      location: {
-        eyebrow: "Strategik joylashuv",
-        title: "Surxondaryo — Markaziy Osiyo chorrahasi",
-        body: "O'zbekistonning eng janubiy hududida, Afg'oniston, Tojikiston va Turkmaniston bilan chegaradosh. Pastroq operatsion xarajatlar, o'sib borayotgan transchegaraviy bozorlarga kirish va xom ashyo yetkazib berish yo'llariga yaqinlik.",
-        advantages: [
-          "Toshkent yoki Samarqandga nisbatan pastroq mehnat va bino xarajatlari",
-          "Chegara bozorlariga yaqinlik — eksportga tayyor",
-          "O'sib borayotgan mintaqaviy sanoat bazasi — kengayayotgan mahalliy talab",
-          "Mintaqaviy ishlab chiqarishni rivojlantirish uchun davlat ko'magi",
-        ],
-      },
-      ctaTitle: "To'liq imkoniyatlarimizni ko'ring",
-      ctaBody: "Mahsulot spetsifikatsiyalari va ma'lumot varaqlarini yuklab oling.",
+      location: { eyebrow: "Strategik joylashuv", title: "Surxondaryo — Markaziy Osiyoning chorrahasi", body: "O'zbekistonning eng janubiy hududida, Afg'oniston, Tojikiston va Turkmaniston bilan chegaradosh. Pastroq operatsion xarajatlar, o'sib borayotgan transchegaraviy bozorlarga chiqish va xom ashyo yetkazib berish yo'llariga yaqinlik.", advantages: ["Toshkent yoki Samarqandga nisbatan arzonroq ishchi kuchi va bino xarajatlari", "Chegara bozorlariga yaqinlik — eksportga tayyor", "O'sib borayotgan mintaqaviy sanoat bazasi — kengayayotgan mahalliy talab", "Mintaqaviy ishlab chiqarishni rivojlantirish bo'yicha davlat ko'magi"] },
+      ctaTitle: "Barcha imkoniyatlarimiz bilan tanishing",
+      ctaBody: "Mahsulot spetsifikatsiyalari va texnik ma'lumot varaqlarini yuklab oling.",
       ctaLabel: "Mahsulotlarni ko'rish",
     },
+    team: [
+      { id: "chemical-expert", name: "Dr. [Ism]", role: "Bosh kimyoviy muhandis", bio: "Retsepturalar ishlab chiqish, sifat nazorati va xalqaro hamkorlik sohasida o'nlab yillik tajribaga ega yuqori martabali davlat kimyoviy mutaxassisi. Barcha mahsulotlarni ishlab chiqish, sinovdan o'tkazish va sertifikatlash ishlariga rahbarlik qiladi. Eron va Markaziy Osiyoning boshqa davlatlari kimyoviy ekspertlari bilan qo'shma tajribalar o'tkazgan.", credentials: ["Milliy kimyoviy tartibga solish sohasida rahbarlik", "Xalqaro hamkorlik tajribasi", "Retsepturalar bo'yicha o'nlab yillik ekspertiza", "Davlat sifat standartlari bo'yicha vakolatli mutaxassis"] },
+      { id: "founder", name: "Mansur", role: "Ta'sischi va boshqaruvchi direktor", bio: "2022-yildan boshlab Marshall kompaniyasini noldan boshlab qurgan. Biznesni rivojlantirish, mijozlar bilan munosabatlar va strategik yo'nalishni boshqaradi. Markaziy Osiyo moylash materiallari bozori va uning o'sish istiqbollarini chuqur tushunadi.", credentials: ["2022-yilda Marshall kompaniyasiga asos solgan", "15+ B2B mijozlar bilan munosabatlarni yo'lga qo'ygan", "To'g'ridan-to'g'ri chakana savdo va kanallar bo'yicha tajriba", "Surxondaryo hududida bozorni rivojlantirish"] },
+    ],
     clients: {
-      hero: {
-        headline: "15+ tashkilot Marshallga ishonadi",
-        subheadline:
-          "Avtomobil ehtiyot qismlari sotuvchilari, transport kompaniyalari, sanoat ishlab chiqaruvchilari va boshqalar bilan ko'p yillik munosabatlar. Takroriy daromad, isbotlangan sodiqlik.",
-      },
-      industriesEyebrow: "Xizmat ko'rsatiladigan sohalar",
-      industriesTitle: "Turli sektorlar bo'ylab diversifikatsiyalangan mijozlar bazasi",
+      hero: { headline: "15+ tashkilot Marshallga ishonadi", subheadline: "Avtomobil ehtiyot qismlari sotuvchilari, transport kompaniyalari, sanoat ishlab chiqaruvchilari va boshqalar bilan ko'p yillik hamkorlik munosabatlari. Barqaror daromad, isbotlangan sodiqlik." },
+      industriesEyebrow: "Xizmat ko'rsatilayotgan sohalar",
+      industriesTitle: "Turli sektorlarni qamrab olgan diversifikatsiyalangan mijozlar bazasi",
       industries: [
-        {
-          id: "auto-parts-retail",
-          name: "Avtomobil ehtiyot qismlari chakana savdosi",
-          description:
-            "Marshall mahsulotlarini bevosita iste'molchilarga sotadigan mustaqil avtomobil ehtiyot qismlari do'konlari va chakana tarmoqlar. Bu hamkorlar doimiy takroriy buyurtmalar bilan eng kuchli distributsiya kanalimizni tashkil etadi.",
-          clientCount: 4,
-          icon: "Store",
-        },
-        {
-          id: "fleet-operators",
-          name: "Transport kompaniyalari",
-          description:
-            "Avtoparklarga xizmat ko'rsatadigan transport va logistika kompaniyalari. Ular rejali yetkazib berish va raqobatbardosh ulgurji narxlar bilan moy va antifriz ta'minoti uchun Marshallga tayanadi.",
-          clientCount: 5,
-          icon: "Truck",
-        },
-        {
-          id: "driving-school",
-          name: "Avtomaktab",
-          description:
-            "O'z avtomaktabimiz doimiy mijozlar oqimini yaratadi — har bir o'qitilgan haydovchi kelajakda moy va antifriz xaridoriga aylanadi. Bu noyob vertikal integratsiya ham daromad, ham bozor ta'limini ta'minlaydi.",
-          clientCount: 1,
-          icon: "GraduationCap",
-        },
-        {
-          id: "industrial-manufacturing",
-          name: "Sanoat ishlab chiqarish",
-          description:
-            "Uskunalarga texnik xizmat ko'rsatish uchun moylash materiallaridan foydalanadigan zavodlar va ustaxonalar. Bu mijozlar barqaror sifat, texnik yordam va ishonchli mahalliy ta'minotni qadrlaydi.",
-          clientCount: 5,
-          icon: "Factory",
-        },
+        { id: "auto-parts-retail", name: "Avtomobil ehtiyot qismlari do'konlari", description: "Marshall mahsulotlarini to'g'ridan-to'g'ri iste'molchilarga sotuvchi mustaqil avtomobil ehtiyot qismlari do'konlari va chakana savdo tarmoqlari. Ushbu hamkorlar doimiy takroriy buyurtmalar bilan eng kuchli distributsiya kanalimizni tashkil etadi.", clientCount: 4, icon: "Store" },
+        { id: "fleet-operators", name: "Transport kompaniyalari", description: "Avtoparklarga xizmat ko'rsatuvchi transport va logistika kompaniyalari. Ular rejali yetkazib berish va raqobatbardosh ulgurji narxlar asosida moy va antifriz ta'minoti uchun Marshallga ishonadilar.", clientCount: 5, icon: "Truck" },
+        { id: "driving-school", name: "Avtomaktab", description: "O'z avtomaktabimiz doimiy mijozlar oqimini yaratadi — har bir o'qitilgan haydovchi kelajakda moy va antifriz xaridoriga aylanadi. Ushbu noyob vertikal integratsiya ham daromad, ham bozor ta'limini ta'minlaydi.", clientCount: 1, icon: "GraduationCap" },
+        { id: "industrial-manufacturing", name: "Sanoat korxonalari", description: "Uskunalarga texnik xizmat ko'rsatish uchun moylash materiallaridan foydalanadigan zavod va ustaxonalar. Ushbu mijozlar barqaror sifat, texnik yordam va ishonchli mahalliy ta'minotni qadrlashadi.", clientCount: 5, icon: "Factory" },
       ],
-      channels: {
-        eyebrow: "Daromad kanallari",
-        title: "Diversifikatsiyalangan va barqaror daromad manbalari",
-        items: [
-          {
-            id: "b2b-orgs",
-            name: "B2B tashkilotlar",
-            description:
-              "15+ doimiy korporativ shartnomalar — avtomobil ehtiyot qismlari sotuvchilari, transport kompaniyalari va sanoat mijozlari. Bashorat qilinadigan rejali ulgurji buyurtmalar.",
-            percentage: 65,
-          },
-          {
-            id: "retail-shop",
-            name: "Chakana do'kon",
-            description:
-              "To'g'ridan-to'g'ri iste'molchilarga sotuvchi o'z chakana savdo nuqtamiz. Piyoda trafik, brend ko'rinishi va real vaqtda bozor fikr-mulohazasi.",
-            percentage: 20,
-          },
-          {
-            id: "driving-school-pipeline",
-            name: "Avtomaktab kanali",
-            description:
-              "Tabiiy mijoz jalb qilish — har bir talaba uzoq muddatli moy va antifriz iste'molchisiga aylanadi. Noyob raqobat ustunligi.",
-            percentage: 15,
-          },
-        ],
-      },
+      channels: { eyebrow: "Daromad kanallari", title: "Diversifikatsiyalangan va barqaror daromad manbalari", items: [{ id: "b2b-orgs", name: "B2B tashkilotlar", description: "15+ doimiy korporativ shartnomalar — avtomobil ehtiyot qismlari do'konlari, transport kompaniyalari va sanoat mijozlari. Bashorat qilinadigan rejali ulgurji buyurtmalar.", percentage: 15 }, { id: "retail-shop", name: "Chakana savdo do'koni", description: "To'g'ridan-to'g'ri iste'molchilarga sotuvchi o'z chakana savdo nuqtamiz. Doimiy mijozlar oqimi, brend ko'rinishi va real vaqt rejimidagi bozor fikr-mulohazasi.", percentage: 20 }, { id: "driving-school-pipeline", name: "Avtomaktab kanali", description: "Tabiiy mijoz jalb qilish mexanizmi — har bir talaba uzoq muddatli moy va antifriz iste'molchisiga aylanadi. Noyob raqobat ustunligi.", percentage: 65 }] },
       flywheelEyebrow: "Marshall modeli",
-      flywheelTitle: "Avtomaktab qanday qilib umrbod mijozlarni yaratadi",
-      flywheelSteps: [
-        {
-          step: 1,
-          title: "Avtomaktab",
-          description: "Talabalar Marshall mahsulotlari bilan xizmat ko'rsatilgan avtomobillarda haydashni o'rganadilar. Brend bilan tanishish haydash hayotining birinchi kunidan boshlanadi.",
-        },
-        {
-          step: 2,
-          title: "Ishonch",
-          description: "Bitiruvchilar o'zlari o'rgangan mahsulotlarga ishonadilar. Marshall ular uchun moy, antifriz va suyuqliklar uchun standart tanlovga aylanadi.",
-        },
-        {
-          step: 3,
-          title: "Umrbod mijozlar",
-          description: "Haydovchilar har bir moy almashtirish, antifriz quyish va tormoz suyuqligi almashtirish uchun Marshall chakana hamkorlariga qaytadilar — avtomobilning butun xizmat muddati davomida.",
-        },
-        {
-          step: 4,
-          title: "Og'izdan og'izga",
-          description: "Mamnun mijozlar Marshallni oila, do'stlar va hamkasblarga tavsiya qiladilar. Organik o'sish yildan yilga kuchayadi.",
-        },
-      ],
-      whyTheyStay: {
-        eyebrow: "Nega ular qoladilar",
-        title: "Mijozlar yildan yilga Marshallni tanlashining to'rtta sababi",
-        reasons: [
-          {
-            title: "Mahalliy ishlab chiqarish, tez yetkazib berish",
-            body: "Surxondaryoda ishlab chiqarish import kechikishlari yo'qligini anglatadi. Mijozlar mahsulotlarni haftalar emas, kunlar ichida oladilar — to'xtab qolishga bardosh bera olmaydigan biznes uchun juda muhim.",
-          },
-          {
-            title: "Markaziy Osiyo iqlim ekspertizasi",
-            body: "Mintaqaviy harorat ekstremallari uchun maxsus ishlab chiqilgan mahsulotlar — qishda -30°C dan yozda +45°C gacha. Import analoglar bu sharoitlarni hisobga olmaydi.",
-          },
-          {
-            title: "Raqobatbardosh narxlar",
-            body: "Mahalliy ishlab chiqarish import bojlari, xalqaro yuk tashish va vositachilik ustamalarini bartaraf etadi. Mijozlar mahalliy narxlarda yuqori sifatga ega bo'ladilar.",
-          },
-          {
-            title: "Moslashtirish va OEM",
-            body: "Biz mijoz spetsifikatsiyalari bo'yicha retseptura, aralashtirish va qadoqlashni amalga oshiramiz. Qovushqoqlikni sozlash, xususiy brend markalash yoki buyurtma qadoqlash — biz yetkazib beramiz.",
-          },
-        ],
-      },
-      testimonials: {
-        eyebrow: "Mijoz fikr-mulohazalari",
-        title: "Hamkorlarimiz nima deydi",
-        items: [
-          {
-            quote: "Marshall moyi sifat talablarimizga doimiy ravishda javob beradi. Mahalliy ishlab chiqarish importni hech qachon kutmasligimizni anglatadi — yetkazib berish bir necha kun ichida.",
-            attribution: "Avtomobil ehtiyot qismlari chakana savdo hamkori",
-            industry: "Chakana savdo",
-          },
-          {
-            quote: "Ikki yil oldin import moylardan Marshallga o'tdik. Yaxshiroq narx, bir xil sifat va texnik yordam a'lo darajada.",
-            attribution: "Transport kompaniyasi rahbari",
-            industry: "Transport",
-          },
-          {
-            quote: "Bizning maxsus uskuna ehtiyojlarimiz uchun individual retsepturalar. Marshallning kimyoviy muhandislik jamoasi to'g'ridan-to'g'ri texnik xizmat ko'rsatish bo'limimiz bilan ishladi.",
-            attribution: "Sanoat ishlab chiqarish mijozi",
-            industry: "Ishlab chiqarish",
-          },
-        ],
-      },
+      flywheelTitle: "Avtomaktab qanday qilib umrbod mijozlarni shakllantiradi",
+      flywheelSteps: [{ step: 1, title: "Avtomaktab", description: "Talabalar Marshall mahsulotlari bilan xizmat ko'rsatilgan avtomobillarda haydashni o'rganadilar. Brend bilan tanishish haydovchilik hayotining birinchi kunidanoq boshlanadi." }, { step: 2, title: "Ishonch", description: "Bitiruvchilar o'zlari o'rgangan mahsulotlarga ishonadilar. Marshall ular uchun moy, antifriz va suyuqliklar bo'yicha standart tanlovga aylanadi." }, { step: 3, title: "Umrbod mijozlar", description: "Haydovchilar har bir moy almashtirish, antifriz quyish va tormoz suyuqligi almashtirish uchun Marshall chakana hamkorlariga qaytadilar — avtomobilning butun xizmat muddati davomida." }, { step: 4, title: "Og'izdan-og'izga", description: "Mamnun mijozlar Marshallni oila a'zolari, do'stlari va hamkasblariga tavsiya qiladilar. Organik o'sish yildan-yilga kuchayib boradi." }],
+      whyTheyStay: { eyebrow: "Nega ular biz bilan qoladilar", title: "Mijozlarning yildan-yilga Marshallni tanlashining to'rtta sababi", reasons: [{ title: "Mahalliy ishlab chiqarish — tezkor yetkazib berish", body: "Surxondaryodagi ishlab chiqarish import kechikishlarining oldini oladi. Mijozlar mahsulotlarni haftalar emas, balki kunlar ichida qabul qiladilar — bu to'xtab qolishga bardosh bera olmaydigan biznes uchun juda muhim." }, { title: "Markaziy Osiyo iqlimi bo'yicha ekspertiza", body: "Mintaqaviy harorat ekstremallari uchun maxsus ishlab chiqilgan mahsulotlar — qishda -30°C dan yozda +45°C gacha. Import analoglar bu sharoitlarni hisobga olmaydi." }, { title: "Raqobatbardosh narxlar", body: "Mahalliy ishlab chiqarish import bojlari, xalqaro yuk tashish va vositachilik ustamalarini bartaraf etadi. Mijozlar mahalliy narxlarda yuqori sifatga ega bo'ladilar." }, { title: "Moslashtirish va OEM", body: "Biz mijoz spetsifikatsiyalari asosida retseptura ishlab chiqamiz, aralashtiramiz va qadoqlaymiz. Qovushqoqlikni sozlash, xususiy brend markalash yoki buyurtma qadoqlash — barchasini yetkazib beramiz." }] },
+      testimonials: { eyebrow: "Mijozlarning fikrlari", title: "Hamkorlarimiz nima deydi", items: [{ quote: "Marshall moyi bizning sifat talablarimizga doimiy ravishda javob beradi. Mahalliy ishlab chiqarish import kutishlarni bartaraf etadi — yetkazib berish bir necha kun ichida amalga oshiriladi.", attribution: "Avtomobil ehtiyot qismlari do'koni hamkori", industry: "Chakana savdo" }, { quote: "Ikki yil oldin import moylardan Marshallga o'tdik. Yaxshiroq narx, bir xil sifat va a'lo darajada texnik yordam.", attribution: "Transport kompaniyasi rahbari", industry: "Transport" }, { quote: "Bizning maxsus uskuna ehtiyojlarimiz uchun individual retsepturalar. Marshallning kimyoviy muhandislar jamoasi to'g'ridan-to'g'ri texnik xizmat ko'rsatish bo'limimiz bilan birgalikda ishladi.", attribution: "Sanoat korxonasi mijozi", industry: "Ishlab chiqarish" }] },
       ctaTitle: "Marshall bilan allaqachon ishlayotgan 15+ tashkilotga qo'shiling",
       ctaBody: "Ishonchli ta'minot, raqobatbardosh narxlar, mahalliy ishlab chiqarish. Biz sizning biznesingizga qanday xizmat ko'rsatishimiz mumkinligini muhokama qilaylik.",
       ctaLabel: "Hamkor bo'ling",
       clientsLabel: "mijoz",
     },
     about: {
-      hero: {
-        headline: "O'zbekistonda qurilgan, uzoq muddatga qurilgan",
-        subheadline:
-          "2022 yildagi g'oyadan bugungi 15+ korporativ mijozgacha — Marshall Markaziy Osiyoning rivojlanayotgan moylash materiallari ishlab chiqaruvchisidir.",
-      },
-      story: {
-        eyebrow: "Bizning hikoyamiz",
-        title: "Ekspertiza asosida qurilgan, ishonch asosida o'sgan",
-        paragraphs: [
-          "Marshall 2022 yilda Sariosiyoda (Surxondaryo viloyati) aniq maqsad bilan tashkil etilgan: xalqaro standartlarga javob beradigan yuqori sifatli moylash materiallari va avtomobil suyuqliklarini — Markaziy Osiyo biznesi va iste'molchilari uchun mos narxlarda ishlab chiqarish.",
-          "Ixtisoslashgan korxona sifatida boshlangan biznes turli sohalardagi 15 dan ortiq tashkilotlarga xizmat ko'rsatishgacha o'sdi. Moylarimiz, antifrizimiz, tormoz suyuqligimiz va surkov moylarimiz butun mintaqa bo'ylab avtomobil ehtiyot qismlari sotuvchilari, transport kompaniyalari va sanoat ishlab chiqaruvchilari tomonidan ishoniladi.",
-          "Har bir mahsulot ortida bosh kimyoviy muhandisimiz — o'nlab yillik retseptura ekspertizasi va xalqaro tadqiqot hamkorliklariga, jumladan eronlik kimyoviy ekspertlar bilan qo'shma tajribalarga ega yuqori martabali davlat kimyoviy mutaxassisi turadi.",
-        ],
-      },
-      milestonesEyebrow: "Bosqichlar",
+      hero: { headline: "O'zbekistonda yaratilgan — uzoq muddatga mo'ljallangan", subheadline: "2022-yildagi g'oyadan bugungi kundagi 15+ korporativ mijozgacha — Marshall Markaziy Osiyoning rivojlanayotgan moylash materiallari ishlab chiqaruvchisidir." },
+      story: { eyebrow: "Bizning tariximiz", title: "Ekspertiza asosida qurilgan, ishonch asosida o'sgan", paragraphs: ["Marshall 2022-yilda Surxondaryo viloyati Sariosiyo tumanida aniq maqsad bilan tashkil etilgan: Markaziy Osiyo biznesi va iste'molchilari uchun mos narxlarda xalqaro standartlarga javob beradigan yuqori sifatli moylash materiallari va avtomobil suyuqliklarini ishlab chiqarish.", "Kichik ixtisoslashgan korxona sifatida boshlangan biznesimiz turli sohalardagi 15 dan ortiq tashkilotlarga xizmat ko'rsatish darajasigacha o'sdi. Moylarimiz, antifrizimiz, tormoz suyuqligimiz va surkov moylarimiz butun mintaqa bo'ylab avtomobil ehtiyot qismlari sotuvchilari, transport kompaniyalari va sanoat korxonalari tomonidan ishonch bilan qabul qilingan.", "Har bir mahsulotimiz ortida bosh kimyoviy muhandisimiz — retsepturalar ishlab chiqish bo'yicha o'nlab yillik tajribaga va Eronlik kimyoviy ekspertlar bilan qo'shma tadqiqotlarni o'z ichiga olgan xalqaro hamkorlik aloqalariga ega yuqori martabali davlat kimyoviy mutaxassisi turadi."] },
+      milestonesEyebrow: "Muhim bosqichlar",
       milestonesTitle: "Marshall yo'li",
-      timeline: [
-        { year: "2022", event: "Marshall Sariosiyoda (Surxondaryo) tashkil etildi. Birinchi moy ishlab chiqarish liniyasi ishga tushirildi." },
-        { year: "2023", event: "Antifriz ishlab chiqarishgacha kengaytirildi. Birinchi 5 ta korporativ B2B mijoz bilan shartnoma imzolandi." },
-        { year: "2024", event: "Mahsulot qatoriga tormoz suyuqligi va surkov moyi qo'shildi. Mijozlar bazasi 10+ tashkilotgacha o'sdi." },
-        { year: "2025", event: "15+ doimiy B2B mijozga erishildi. OEM/xususiy brend xizmati ishga tushirildi. Eron bilan kimyoviy tadqiqot hamkorligi o'rnatildi." },
-        { year: "2026+", event: "Ishlab chiqarish quvvatini kengaytirish. Havo filtrlari ishlab chiqarish liniyasi ishlab chiqilmoqda. Eksport bozorlarini o'rganish." },
-      ],
+      timeline: [{ year: "2022", event: "Sariosiyoda (Surxondaryo) Marshall kompaniyasiga asos solindi. Birinchi moy ishlab chiqarish liniyasi ishga tushirildi." }, { year: "2023", event: "Antifriz ishlab chiqarish yo'lga qo'yildi. Dastlabki 5 ta korporativ B2B mijoz bilan shartnoma imzolandi." }, { year: "2024", event: "Mahsulot qatoriga tormoz suyuqligi va surkov moyi qo'shildi. Mijozlar bazasi 10+ tashkilotgacha kengaydi." }, { year: "2025", event: "15+ doimiy B2B mijozga erishildi. OEM/xususiy brend xizmati yo'lga qo'yildi. Eron bilan kimyoviy tadqiqot hamkorligi o'rnatildi." }, { year: "2026+", event: "Ishlab chiqarish quvvatini kengaytirish. Havo filtrlari ishlab chiqarish liniyasi tayyorlanmoqda. Eksport bozorlari o'rganilmoqda." }],
       leadershipEyebrow: "Rahbariyat",
-      leadershipTitle: "Marshall ortida turgan odamlar",
-      market: {
-        eyebrow: "Bozor imkoniyati",
-        title: "O'zbekiston moylash materiallari bozori — 11%+ yillik o'sish",
-        body: "O'zbekiston moylash materiallari bozori 2031 yilgacha har yili 11% dan ortiq o'sishi prognoz qilinmoqda, bu avtomobil egaligining kengayishi, sanoat rivojlanishi va mahalliy ishlab chiqarishni qo'llab-quvvatlovchi davlat tashabbuslari bilan bog'liq. Marshall ushbu o'sish to'lqinining markazida joylashgan.",
-      },
-      ctaTitle: "Marshall hikoyasi qiziqtirdimi?",
+      leadershipTitle: "Marshall ortida turgan insonlar",
+      market: { eyebrow: "Bozor imkoniyatlari", title: "O'zbekiston moylash materiallari bozori — yillik 11%+ o'sish", body: "O'zbekiston moylash materiallari bozori 2031-yilgacha har yili 11% dan ortiq o'sishi prognoz qilinmoqda. Bunga avtomobillashtirishning kengayishi, sanoat rivojlanishi va mahalliy ishlab chiqarishni qo'llab-quvvatlovchi davlat tashabbuslari sabab bo'lmoqda. Marshall ushbu o'sish to'lqinining markazida joylashgan." },
+      ctaTitle: "Marshall tarixi sizni qiziqtirdimi?",
       ctaBody: "Ishlab chiqarish imkoniyatlarimiz va mijozlar portfelimiz haqida ko'proq bilib oling.",
       ctaLabel: "Ishlab chiqarishni ko'rish",
     },
-    team: [
-      {
-        id: "chemical-expert",
-        name: "Salomov Abduhamid",
-        role: "Bosh kimyoviy muhandis",
-        bio: "«O'zkimyosanoat»ning yetakchi kimyo muhandisligi eksperti. Marshalning barcha retsepturalarining mutlaq tozaligini ta'minlash uchun maxsus texnik guruhni boshqaradi. Xalqaro tadqiqot hamkorliklarini, shu jumladan jahon darajasidagi sifat standartlarini saqlash uchun Eronlik kimyoviy ekspertlar bilan tajribalarni muvofiqlashtiradi.",
-        credentials: [
-          "«O'zkimyosanoat»da katta ekspert",
-          "Maxsus texnik guruh rahbari",
-          "Eron-O'zbekiston kimyoviy tadqiqot hamkorligi",
-          "Sof kimyoviy retsepturalar bo'yicha mutaxassis",
-        ],
-      },
-      {
-        id: "ceo",
-        name: "Aliev Otabek",
-        role: "Bosh direktor va strategik rahbar",
-        bio: "Xalqaro avtomobil ehtiyot qismlari va moylash materiallari bozorida 30 yildan ortiq tajribaga ega soha faxriysi. Sifat standartlarini shaxsan tekshirish va eng yaxshi materiallarni tanlash uchun Xitoy va boshqa global ishlab chiqarish markazlariga tez-tez sayohat qiladi, Marshalning global strategiyasi va korporativ o'sishini boshqaradi.",
-        credentials: [
-          "Avto ehtiyot qismlari sohasida 30+ yillik tajriba",
-          "Sifat nazorati uchun global sayohatchi",
-          "Strategik bozorni rivojlantirish eksperti",
-          "Marshal Group hammuassisi",
-        ],
-      },
-      {
-        id: "founder",
-        name: "Mansur",
-        role: "Ta'sischi va boshqaruvchi direktor",
-        bio: "2022 yildan boshlab Marshalni noldan qurdi. Biznesni rivojlantirish, mijozlar bilan munosabatlar va strategik yo'nalishni boshqaradi. Markaziy Osiyo moylash materiallari bozori va uning o'sish trayektoriyasini chuqur tushunadi.",
-        credentials: [
-          "2022 yilda Marshalga asos soldi",
-          "15+ B2B mijoz munosabatlarini qurdi",
-          "To'g'ridan-to'g'ri chakana va kanal tajribasi",
-          "Surxondaryo hududida bozorni rivojlantirish",
-        ],
-      },
-    ],
     trade: {
-      hero: {
-        headline: "Savdo hamkorlari uchun optimallashtirilgan ta'minot",
-        subheadline:
-          "Ulgurji narxlar, rejali yetkazib berish, maxsus qo'llab-quvvatlash va to'liq texnik hujjatlar — moylash materiallari hamkoridan biznesingizga kerak bo'lgan hamma narsa.",
-      },
-      ctaButton: "Kirish so'rash",
-      portal: {
-        eyebrow: "Savdo portali",
-        title: "Onlayn buyurtma — tez orada ishga tushadi",
-        body: "Biz savdo hamkorlari narxlarni ko'rishi, buyurtma berishi, yetkazib berishni kuzatishi va texnik hujjatlarga kirishi mumkin bo'lgan maxsus B2B portalini qurmoqdamiz — hammasi bir joyda. Erta kirish uchun quyida qiziqishingizni ro'yxatdan o'tkazing.",
-        features: [
-          {
-            title: "Eksklyuziv savdo narxlari",
-            body: "Ro'yxatdan o'tgan savdo hamkorlari hajmga qarab narx darajalarini oladilar. Qancha ko'p buyurtma bersangiz, marjangiz shuncha yaxshi bo'ladi.",
-          },
-          {
-            title: "Buyurtmalar tarixi va tez qayta buyurtma",
-            body: "To'liq buyurtmalar tarixini ko'ring va oldingi xaridlarni bir marta bosish bilan takrorlang. Hech qanday qog'oz ishi, hech qanday kechikishlar.",
-          },
-          {
-            title: "Rejali yetkazib berish",
-            body: "Muntazam ta'minot uchun takroriy yetkazib berish jadvallarini o'rnating. Zaxiralaringiz hech qachon tugamasligi uchun biz logistikani boshqaramiz.",
-          },
-          {
-            title: "Maxsus hisob qo'llab-quvvatlashi",
-            body: "Har bir savdo hamkori jamoamizga to'g'ridan-to'g'ri aloqa liniyasiga ega. Texnik savollar, buyurtma buyurtmalar, shoshilinch so'rovlar — tez javob beriladi.",
-          },
-          {
-            title: "Texnik ma'lumotlar kutubxonasi",
-            body: "Har bir Marshall mahsuloti uchun mahsulot spetsifikatsiyalari, xavfsizlik ma'lumotlar varaqlari va qo'llash qo'llanmalariga to'liq kirish.",
-          },
-          {
-            title: "Yangi mahsulotlarga birinchi kirish",
-            body: "Savdo hamkorlari yangi retsepturalar va mahsulotlarga — jumladan, kelajakdagi havo filtrlari liniyamizga erta kirish huquqiga ega.",
-          },
-        ],
-      },
+      hero: { headline: "Savdo hamkorlari uchun optimallashtirilgan ta'minot", subheadline: "Ulgurji narxlar, rejali yetkazib berish, maxsus qo'llab-quvvatlash va to'liq texnik hujjatlar — moylash materiallari hamkoringizdan biznesingiz uchun zarur bo'lgan barcha narsa." },
+      ctaButton: "Hamkorlik so'rovi",
+      portal: { eyebrow: "Savdo portali", title: "Onlayn buyurtmalar — tez orada ishga tushadi", body: "Biz savdo hamkorlari narxlarni ko'rishi, buyurtma berishi, yetkazib berishni kuzatishi va texnik hujjatlarga kirishi mumkin bo'lgan maxsus B2B portalini yaratmoqdamiz — barchasi bir joyda. Erta kirish uchun quyida ro'yxatdan o'ting.", features: [{ title: "Eksklyuziv savdo narxlari", body: "Ro'yxatdan o'tgan savdo hamkorlari hajmga qarab narx darajalarini qo'lga kiritadilar. Qancha ko'p buyurtma bersangiz, marjangiz shuncha yuqori bo'ladi." }, { title: "Buyurtmalar tarixi va tezkor qayta buyurtma", body: "To'liq buyurtmalar tarixini ko'ring va oldingi xaridlarni bir marta bosish orqali takrorlang. Hech qanday qog'ozbozlik, hech qanday kechikishlarsiz." }, { title: "Rejali yetkazib berish", body: "Muntazam ta'minot uchun takroriy yetkazib berish jadvalini o'rnating. Zaxirangiz hech qachon tugamasligi uchun logistikani biz boshqaramiz." }, { title: "Shaxsiy hisobingiz orqali qo'llab-quvvatlash", body: "Har bir savdo hamkori jamoamiz bilan to'g'ridan-to'g'ri aloqa liniyasiga ega. Texnik savollar, maxsus buyurtmalar, shoshilinch so'rovlar — tezkor javob beriladi." }, { title: "Texnik ma'lumotlar kutubxonasi", body: "Har bir Marshall mahsuloti bo'yicha to'liq spetsifikatsiyalar, xavfsizlik ma'lumotlari varaqalari va qo'llash qo'llanmalariga to'liq kirish imkoniyati." }, { title: "Yangi mahsulotlarga birinchi bo'lib kirish", body: "Savdo hamkorlari yangi retsepturalar va mahsulotlarga — jumladan kelajakdagi havo filtrlari liniyamizga birinchi bo'lib kirish huquqiga ega." }] },
       howItWorksEyebrow: "Qanday ishlaydi",
-      howItWorksTitle: "Savdo hamkorligiga uch qadam",
-      steps: [
-        {
-          step: "01",
-          title: "Biznesingizni ro'yxatdan o'tkazing",
-          body: "Kompaniya ma'lumotlaringiz, sohangiz va taxminiy hajm talablaringiz bilan savdo so'rov shaklini to'ldiring. Biz ko'rib chiqamiz va 24 soat ichida javob beramiz.",
-        },
-        {
-          step: "02",
-          title: "Shartlar va narxlarni kelishib oling",
-          body: "Biz siz bilan hajmga asoslangan narx darajalari, yetkazib berish jadvallari va to'lov shartlarini o'rnatish uchun ishlaymiz. Buyurtma retsepturalar va qadoqlash mavjud.",
-        },
-        {
-          step: "03",
-          title: "Buyurtma berishni boshlang",
-          body: "Telefon, elektron pochta yoki yaqinlashib kelayotgan onlayn portalimiz orqali buyurtma bering. Mahsulotlarni bir necha kun ichida oling — import kechikishlari yoki vositachilarsiz.",
-        },
-      ],
+      howItWorksTitle: "Savdo hamkorligi sari uch qadam",
+      steps: [{ step: "01", title: "Biznesingizni ro'yxatdan o'tkazing", body: "Kompaniya ma'lumotlaringiz, sohangiz va taxminiy hajm talablaringiz bilan savdo so'rovi shaklini to'ldiring. Biz ko'rib chiqamiz va 24 soat ichida javob beramiz." }, { step: "02", title: "Shartlar va narxlarni kelishib oling", body: "Biz siz bilan birgalikda hajmga asoslangan narx darajalari, yetkazib berish jadvallari va to'lov shartlarini ishlab chiqamiz. Maxsus retsepturalar va qadoqlash imkoniyatlari mavjud." }, { step: "03", title: "Buyurtma berishni boshlang", body: "Telefon, elektron pochta yoki yaqin orada ishga tushadigan onlayn portalimiz orqali buyurtma bering. Mahsulotlarni bir necha kun ichida qabul qiling — import kechikishlari va vositachilarsiz." }],
       ctaTitle: "Savdo hamkori bo'lishga tayyormisiz?",
       ctaBody: "So'rov shaklini to'ldiring va jamoamiz bir ish kuni ichida siz bilan bog'lanadi.",
-      ctaLabel: "Kirish uchun ro'yxatdan o'tish",
+      ctaLabel: "Hamkorlik uchun ro'yxatdan o'tish",
     },
     contact: {
-      hero: {
-        headline: "Aloqa",
-        subheadline:
-          "Hamkorlik so'rovlari. Ulgurji ta'minot. Investitsiya imkoniyatlari. Jamoamizga to'g'ridan-to'g'ri murojaat.",
-      },
-      partner: {
-        title: "Hamkor bo'ling",
-        description:
-          "Marshall mahsulotlarini sotishga yoki savdo mijozi bo'lishga qiziqasizmi? Biznesingiz va ehtiyojlaringiz haqida gapirib bering.",
-        fields: ["Kompaniya nomi", "Soha", "Mahsulot qiziqishi", "Taxminiy hajm"],
-      },
-      investment: {
-        title: "Investor so'rovi",
-        description:
-          "Malakali xaridorlar va investorlar: Maxfiy axborot memorandumimizni so'rang. Barcha so'rovlar NDA ostida qat'iy maxfiylik bilan ko'rib chiqiladi.",
-        fields: ["Ismingiz", "Tashkilot", "Investitsiya diapazoni", "Muddatlar"],
-        note: "Faqat jiddiy so'rovlar. To'liq moliyaviy va operatsion ma'lumotlar kvalifikatsiyadan so'ng NDA ostida taqdim etiladi.",
-      },
+      hero: { headline: "Aloqa", subheadline: "Hamkorlik so'rovlari. Ulgurji ta'minot. Investitsiya imkoniyatlari. Jamoamiz bilan to'g'ridan-to'g'ri bog'laning." },
+      partner: { title: "Hamkor bo'ling", description: "Marshall mahsulotlarini sotish yoki savdo hamkori bo'lishga qiziqasizmi? Biznesingiz va ehtiyojlaringiz haqida ma'lumot bering.", fields: ["Kompaniya nomi", "Soha", "Qiziqtirgan mahsulot", "Taxminiy hajm"] },
+      investment: { title: "Investorlar uchun", description: "Malakali xaridorlar va investorlar: Maxfiy axborot memorandumimizni so'rang. Barcha so'rovlar NDA asosida qat'iy maxfiylik bilan ko'rib chiqiladi.", fields: ["Ismingiz", "Tashkilot", "Investitsiya diapazoni", "Muddatlar"], note: "Faqat jiddiy so'rovlar qabul qilinadi. To'liq moliyaviy va operatsion ma'lumotlar malakaviy tekshiruvdan so'ng NDA asosida taqdim etiladi." },
       locationEyebrow: "Bizning manzilimiz",
-      email: "Email",
+      email: "Elektron pochta",
       phone: "Telefon",
       address: "Manzil",
     },
     common: {
-      backToHome: "Bosh sahifaga",
+      backToHome: "Bosh sahifaga qaytish",
       pageNotFound: "Sahifa topilmadi",
-      pageNotFoundBody: "Siz izlayotgan sahifa mavjud emas yoki ko'chirilgan.",
+      pageNotFoundBody: "Siz izlayotgan sahifa mavjud emas yoki boshqa joyga ko'chirilgan.",
       submitInquiry: "So'rov yuborish",
       thankYou: "Rahmat",
-      thankYouBody: "Biz siz bilan 24 soat ichida bog'lanamiz.",
-      credentials: "Malaka",
-      clientSingular: "mijoz",
-      clientPlural: "mijoz",
+      thankYouBody: "Sizning so'rovingiz qabul qilindi. Biz siz bilan 24 soat ichida bog'lanamiz.",
       received: "So'rov qabul qilindi",
-      receivedBody: "Keyingi qadamlar bilan 24 soat ichida javob beramiz.",
+      receivedBody: "Keyingi qadamlar haqida 24 soat ichida javob beramiz.",
       select: "Tanlang...",
-      fullName: "To'liq ism",
-      professionalEmail: "Ish Email",
+      fullName: "To'liq ism-sharif",
+      professionalEmail: "Ish elektron pochtasi",
       investmentRange: "Investitsiya diapazoni (USD)",
       directInquiry: "To'g'ridan-to'g'ri so'rov",
-      ndaProtected: "NDA himoyasida",
-      featured: "Tavsiya etilgan",
+      ndaProtected: "NDA himoyasi ostida",
+      featured: "Tavsiya etiladi",
       details: "Batafsil →",
       inDevelopment: "Ishlab chiqilmoqda",
-      mfgAndSales: "Ishlab chiqarish va savdo",
+      mfgAndSales: "Ishlab chiqarish va savdo ofisi",
       response24h: "24 soat ichida javob",
-      availableHours: "9:00–18:00 UZT mavjud",
+      availableHours: "9:00–18:00 UZT oralig'ida mavjud",
       surkhandarya: "Surxondaryo viloyati, O'zbekiston",
       processEyebrow: "Jarayon",
-      processTitle: "Yuborganingizdan keyin nima bo'ladi",
+      processTitle: "So'rov yuborganingizdan keyin nima bo'ladi",
       step1Title: "Biz ko'rib chiqamiz",
-      step1Body: "So'rovingiz to'g'ridan-to'g'ri jamoamizga tushadi. Biz moslik va hajmni baholaymiz.",
+      step1Body: "Sizning so'rovingiz to'g'ridan-to'g'ri jamoamizga tushadi. Biz moslik, hajm va muddatlarni baholaymiz.",
       step2Title: "Biz javob beramiz",
-      step2Body: "24 soat ichida keyingi qadamlar bilan to'g'ridan-to'g'ri javob olasiz.",
-      step3Title: "Biz harakat qilamiz",
-      step3Body: "Hamkorlik shartlari, tashriflar, namunalar yoki due diligence materiallari — biz taqdim etamiz.",
+      step2Body: "24 soat ichida siz keyingi qadamlar, narx bo'yicha yo'riqnoma yoki investitsiya so'rovlari uchun NDA hujjatlari bilan javob olasiz.",
+      step3Title: "Biz harakatga o'tamiz",
+      step3Body: "Hamkorlik shartlari, joyiga tashrif, mahsulot namunalari yoki due diligence materiallari — qaysi yo'nalish kerak bo'lsa, biz taqdim etamiz.",
       partnerInvestEyebrow: "To'g'ridan-to'g'ri so'rov",
       partnerInvestTitle: "Hamkor yoki investor",
-      partnerInvestBody: "Ikki yo'l. Bir jamoa. 24 soat ichida javob.",
+      partnerInvestBody: "Ikki yo'l. Bitta jamoa. 24 soat ichida javob beramiz.",
     },
   },
+
 };
 // ── Helper ─────────────────────────────────────────────────
 export function getT(lang: string, path: string): any {
