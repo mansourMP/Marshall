@@ -16,7 +16,7 @@ export function ProductsClient({ lang, products }: { lang: Lang; products: any }
           <SectionHeader eyebrow={products.sectionEyebrow} title={products.sectionTitle} />
           <div className="grid-2">
             {products.items.map((p: any) => (
-              <ProductCard key={p.id} product={{ ...p, highlightLabel: products.featuredProduct, specLabel: products.specifications, appLabel: products.applications }} />
+              <ProductCard key={p.id} lang={lang} product={{ ...p, highlightLabel: products.featuredProduct, specLabel: products.specifications, appLabel: products.applications }} />
             ))}
           </div>
         </div>

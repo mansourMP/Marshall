@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type ProductCardProps = {
   product: {
     id: string;
@@ -12,9 +14,10 @@ type ProductCardProps = {
     specLabel?: string;
     appLabel?: string;
   };
+  lang?: string;
 };
 
-export function ProductCard({ product }: ProductCardProps) {
+export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
   const getGradient = (id: string) => {
     switch (id) {
       case "premium-engine-oil":
@@ -77,7 +80,9 @@ export function ProductCard({ product }: ProductCardProps) {
           {product.description}
         </p>
 
-        <div className="card__link">Read more</div>
+        <Link href={`/${lang}/products/${product.id}/`} className="card__link">
+          Read more <span style={{ marginLeft: "0.25rem" }}>→</span>
+        </Link>
       </div>
     </article>
   );
