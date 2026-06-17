@@ -11,8 +11,8 @@ export default function NotFound() {
         justifyContent: "center",
         textAlign: "center",
         padding: "2rem",
-        background: "var(--marshal-navy)",
-        color: "var(--marshal-white)",
+        background: "#FFFFFF",
+        color: "var(--shell-black)",
       }}
     >
       <div style={{ fontSize: "5rem", fontWeight: 800, color: "var(--marshal-amber)", lineHeight: 1, marginBottom: "1rem" }}>404</div>

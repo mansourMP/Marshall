@@ -110,15 +110,15 @@ h4 { font-size: 1.25rem; }
 }
 
 .section--dark {
-  background-color: var(--shell-black);
-  color: var(--shell-white);
+  background-color: var(--shell-gray-light);
+  color: var(--shell-black);
 }
 
 .section--dark h1,
 .section--dark h2,
 .section--dark h3,
 .section--dark h4 {
-  color: var(--shell-white);
+  color: var(--shell-black);
 }
 
 .section--light {

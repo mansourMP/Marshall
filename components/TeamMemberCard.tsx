@@ -30,7 +30,7 @@ export function TeamMemberCard({ member }: TeamMemberCardProps) {
   const imageUrl = getImageUrl(member.id);
 
   return (
-    <div style={{ background: "var(--marshal-charcoal)", border: "1px solid #334155", borderRadius: "0.75rem", padding: "2rem", color: "var(--marshal-white)" }}>
+    <div style={{ background: "#FFFFFF", border: "1px solid #E5E5E5", borderRadius: "0.75rem", padding: "2rem", color: "var(--shell-black)" }}>
       {imageUrl ? (
         <img 
           src={imageUrl} 
@@ -38,7 +38,7 @@ export function TeamMemberCard({ member }: TeamMemberCardProps) {
           style={{ width: 80, height: 80, borderRadius: "0.5rem", objectFit: "cover", marginBottom: "1rem" }} 
         />
       ) : (
-        <div style={{ width: 64, height: 64, borderRadius: "0.5rem", background: "linear-gradient(135deg, var(--marshal-amber), var(--marshal-gold))", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.5rem", fontWeight: 800, color: "var(--marshal-navy)", marginBottom: "1rem" }}>
+        <div style={{ width: 64, height: 64, borderRadius: "0.5rem", background: "linear-gradient(135deg, var(--marshal-amber), var(--marshal-gold))", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.5rem", fontWeight: 800, color: "#FFF", marginBottom: "1rem" }}>
           {member.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
         </div>
       )}

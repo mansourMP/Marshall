@@ -33,11 +33,11 @@ export function TradeClient({ lang, trade }: { lang: Lang; trade: any }) {
           <SectionHeader eyebrow={trade.howItWorksEyebrow} title={trade.howItWorksTitle} light />
           <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
             {trade.steps.map((s: any) => (
-              <div key={s.step} style={{ display: "flex", gap: "1.5rem", padding: "1.5rem", background: "var(--marshal-charcoal)", borderRadius: "0.75rem", border: "1px solid #334155" }}>
-                <div style={{ fontSize: "2rem", fontWeight: 800, color: "var(--marshal-amber)", fontFamily: "var(--font-mono)", lineHeight: 1, flexShrink: 0 }}>{s.step}</div>
+              <div key={s.step} style={{ display: "flex", gap: "1.5rem", padding: "1.5rem", background: "#FFFFFF", borderRadius: "0.75rem", border: "1px solid #E5E5E5" }}>
+                <div style={{ fontSize: "2rem", fontWeight: 800, color: "var(--shell-red)", fontFamily: "var(--font-mono)", lineHeight: 1, flexShrink: 0 }}>{s.step}</div>
                 <div>
-                  <h4 style={{ color: "var(--marshal-white)", marginBottom: "0.375rem" }}>{s.title}</h4>
-                  <p style={{ fontSize: "0.875rem", color: "var(--marshal-gray)", lineHeight: 1.6 }}>{s.body}</p>
+                  <h4 style={{ color: "var(--shell-black)", marginBottom: "0.375rem" }}>{s.title}</h4>
+                  <p style={{ fontSize: "0.875rem", color: "var(--shell-gray)", lineHeight: 1.6 }}>{s.body}</p>
                 </div>
               </div>
             ))}

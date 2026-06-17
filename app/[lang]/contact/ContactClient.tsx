@@ -67,7 +67,7 @@ export function ContactClient({ lang, contact, brand }: { lang: Lang; contact: a
       </section>
 
       {/* ── Contact Info ────────────────────────────────── */}
-      <section className="section section--dark">
+      <section className="section" style={{ background: "#1F1F1F", color: "#FFFFFF" }}>
         <div className="container">
           <SectionHeader eyebrow={contact.locationEyebrow} title="Manufacturing & Sales Office" light />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "2rem", maxWidth: 900, marginInline: "auto" }}>
