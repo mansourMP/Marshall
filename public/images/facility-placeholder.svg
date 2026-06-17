@@ -1,0 +1,18 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#1E293B"/>
+  <rect x="200" y="150" width="400" height="250" rx="8" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <rect x="280" y="100" width="240" height="60" rx="4" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+  <rect x="340" y="120" width="120" height="20" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <text x="400" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#F59E0B">MARSHAL PRODUCTION</text>
+  <!-- Production lines -->
+  <rect x="110" y="250" width="60" height="100" rx="6" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+  <rect x="220" y="220" width="60" height="130" rx="6" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+  <rect x="330" y="200" width="60" height="150" rx="6" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+  <rect x="440" y="220" width="60" height="130" rx="6" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+  <rect x="550" y="250" width="60" height="100" rx="6" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+  <!-- Floor -->
+  <rect x="0" y="400" width="800" height="100" fill="#0F172A"/>
+  <text x="400" y="460" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">
+    Surkhandarya, Sariasia — 300 m² Facility
+  </text>
+</svg>

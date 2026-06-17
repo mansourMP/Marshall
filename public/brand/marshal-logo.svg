@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Oil drop shape -->
+  <defs>
+    <linearGradient id="dropGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBCE07"/>
+      <stop offset="100%" stop-color="#DD1D21"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main oil drop -->
+  <path
+    d="M100 175C134.5 175 162 147.5 162 113C162 85 130 50 100 25C70 50 38 85 38 113C38 147.5 65.5 175 100 175Z"
+    fill="url(#dropGrad)"
+  />
+
+  <!-- Inner highlight -->
+  <path
+    d="M100 155C126.5 155 148 133.5 148 107C148 86 123 57 100 38C77 57 52 86 52 107C52 133.5 73.5 155 100 155Z"
+    fill="none"
+    stroke="white"
+    stroke-opacity="0.2"
+    stroke-width="2"
+  />
+
+  <!-- M letter inside drop -->
+  <text
+    x="100"
+    y="118"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-weight="900"
+    font-size="70"
+    fill="white"
+    letter-spacing="-2"
+  >M</text>
+
+  <!-- Small shine -->
+  <ellipse cx="85" cy="65" rx="12" ry="8" fill="white" opacity="0.25" transform="rotate(-30 85 65)"/>
+</svg>

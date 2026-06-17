@@ -1,0 +1,85 @@
+type ProductCardProps = {
+  product: {
+    id: string;
+    name: string;
+    tagline: string;
+    description: string;
+    capacity: string;
+    specs: { label: string; value: string }[];
+    applications: string[];
+    highlight?: boolean;
+    highlightLabel?: string;
+    specLabel?: string;
+    appLabel?: string;
+  };
+};
+
+export function ProductCard({ product }: ProductCardProps) {
+  const getGradient = (id: string) => {
+    switch (id) {
+      case "premium-engine-oil":
+      case "standard-engine-oil":
+        return "linear-gradient(135deg, #F59E0B, #D97706)"; // Warm Amber
+      case "antifreeze":
+        return "linear-gradient(135deg, #2DD4BF, #0D9488)"; // Teal/Blue
+      case "brake-fluid":
+      case "grease":
+        return "linear-gradient(135deg, #94A3B8, #475569)"; // Professional Grey
+      default:
+        return "linear-gradient(135deg, var(--shell-gray), var(--shell-black))";
+    }
+  };
+
+  return (
+    <article className="card" style={{ overflow: "hidden" }}>
+      <div className="card__image" style={{ position: "relative", height: "160px", background: getGradient(product.id) }}>
+        {product.highlight && (
+          <span
+            style={{
+              position: "absolute",
+              top: "1rem",
+              left: "1rem",
+              background: "var(--shell-yellow)",
+              color: "var(--shell-black)",
+              padding: "0.25rem 0.75rem",
+              borderRadius: "999px",
+              fontSize: "0.75rem",
+              fontWeight: 800,
+              textTransform: "uppercase",
+            }}
+          >
+            {product.highlightLabel ?? "Featured"}
+          </span>
+        )}
+      </div>
+      <div className="card__content" style={{ padding: "1.5rem" }}>
+        <h3 style={{ marginBottom: "0.5rem", fontSize: "1.5rem" }}>{product.name}</h3>
+        <p
+          style={{
+            fontSize: "0.875rem",
+            fontWeight: 700,
+            color: "var(--shell-red)",
+            textTransform: "uppercase",
+            letterSpacing: "0.05em",
+            marginBottom: "1rem",
+          }}
+        >
+          {product.tagline}
+        </p>
+        <p
+          style={{
+            fontSize: "0.9375rem",
+            color: "var(--shell-gray)",
+            lineHeight: 1.6,
+            marginBottom: "1.5rem",
+          }}
+        >
+          {product.description}
+        </p>
+
+        <div className="card__link">Read more</div>
+      </div>
+    </article>
+  );
+}
+
