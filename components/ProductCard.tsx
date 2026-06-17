@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { useLang } from "@/lib/i18n/LanguageProvider";
+import { getT } from "@/lib/i18n/translations";
 
 type ProductCardProps = {
   product: {
@@ -18,6 +20,8 @@ type ProductCardProps = {
 };
 
 export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
+  const currentLang = useLang();
+  const tc = getT(currentLang, "common");
   return (
     <article
       className="card"
@@ -36,7 +40,7 @@ export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
               marginBottom: "0.75rem",
             }}
           >
-            {product.highlightLabel ?? "Featured"}
+            {product.highlightLabel ?? tc?.featured ?? "Featured"}
           </span>
         )}
 
@@ -144,7 +148,7 @@ export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
               gap: "0.25rem",
             }}
           >
-            Details →
+            {tc?.details ?? "Details →"}
           </Link>
         </div>
       </div>

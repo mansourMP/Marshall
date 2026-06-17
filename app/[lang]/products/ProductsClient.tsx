@@ -5,6 +5,7 @@ import { Hero } from "@/components/Hero";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ProductCard } from "@/components/ProductCard";
 import { CTABanner } from "@/components/CTABanner";
+import { getT } from "@/lib/i18n/translations";
 
 export function ProductsClient({ lang, products }: { lang: Lang; products: any }) {
   return (
@@ -100,7 +101,7 @@ export function ProductsClient({ lang, products }: { lang: Lang; products: any }
               letterSpacing: "0.1em",
               marginBottom: "1rem",
             }}>
-              In Development
+              {products.comingSoon?.eyebrow ?? getT(lang, "common")?.inDevelopment ?? "In Development"}
             </div>
             <h3 style={{ marginBottom: "1rem" }}>{products.comingSoon.title}</h3>
             <p style={{ fontSize: "1.0625rem", color: "var(--shell-gray)", lineHeight: 1.6 }}>
