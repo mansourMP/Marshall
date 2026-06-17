@@ -74,17 +74,28 @@ export function Navbar() {
         </Link>
 
         <nav className="marshal-navbar__nav" aria-label="Main navigation">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`marshal-navbar__link${
-                pathname === link.href ? " marshal-navbar__link--active" : ""
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const active = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  padding: "0.5rem 0.875rem",
+                  borderRadius: 6,
+                  fontSize: "0.8125rem",
+                  fontWeight: 600,
+                  color: active ? "#FFFFFF" : "var(--shell-black)",
+                  background: active ? "var(--shell-red)" : "var(--shell-gray-light)",
+                  transition: "background 0.15s ease",
+                }}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="marshal-navbar__actions">

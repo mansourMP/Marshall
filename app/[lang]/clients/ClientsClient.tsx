@@ -38,15 +38,15 @@ export function ClientsClient({ lang, clients }: { lang: Lang; clients: any }) {
           </div>
         </div>
       </section>
-      <section className="section section--dark">
+      <section className="section">
         <div className="container">
-          <SectionHeader eyebrow={clients.channels.eyebrow} title={clients.channels.title} light />
+          <SectionHeader eyebrow={clients.channels.eyebrow} title={clients.channels.title} />
           <div className="grid-3">
             {clients.channels.items.map((ch: any) => (
-              <div key={ch.id} style={{ textAlign: "center", padding: "3rem 2rem", background: "var(--shell-dark)", borderRadius: "var(--radius-md)", border: "1px solid rgba(255,255,255,0.1)" }}>
-                <div style={{ width: 100, height: 100, borderRadius: "50%", border: "4px solid var(--shell-yellow)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1.5rem", fontSize: "1.5rem", fontWeight: 800, color: "var(--shell-yellow)" }}>{ch.percentage}%</div>
-                <h4 style={{ color: "#FFFFFF", marginBottom: "1rem", fontSize: "1.25rem" }}>{ch.name}</h4>
-                <p style={{ fontSize: "1rem", color: "var(--shell-gray-light)", lineHeight: 1.6 }}>{ch.description}</p>
+              <div className="card" key={ch.id} style={{ textAlign: "center", padding: "3rem 2rem" }}>
+                <div style={{ width: 100, height: 100, borderRadius: "50%", border: "4px solid var(--shell-red)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1.5rem", fontSize: "1.5rem", fontWeight: 800, color: "var(--shell-red)" }}>{ch.percentage}%</div>
+                <h4 style={{ marginBottom: "1rem", fontSize: "1.25rem" }}>{ch.name}</h4>
+                <p style={{ fontSize: "1rem", color: "var(--shell-gray)", lineHeight: 1.6 }}>{ch.description}</p>
               </div>
             ))}
           </div>
@@ -58,14 +58,14 @@ export function ClientsClient({ lang, clients }: { lang: Lang; clients: any }) {
           <FlywheelDiagram steps={clients.flywheelSteps} />
         </div>
       </section>
-      <section className="section section--dark">
+      <section className="section section--light">
         <div className="container">
-          <SectionHeader eyebrow={clients.whyTheyStay.eyebrow} title={clients.whyTheyStay.title} light />
+          <SectionHeader eyebrow={clients.whyTheyStay.eyebrow} title={clients.whyTheyStay.title} />
           <div className="grid-2">
             {clients.whyTheyStay.reasons.map((r: any) => (
-              <div key={r.title} style={{ padding: "2.5rem", background: "rgba(255,255,255,0.05)", borderRadius: "var(--radius-md)", borderLeft: "4px solid var(--shell-red)" }}>
-                <h4 style={{ color: "#FFFFFF", marginBottom: "1rem", fontSize: "1.25rem" }}>{r.title}</h4>
-                <p style={{ fontSize: "1rem", color: "var(--shell-gray-light)", lineHeight: 1.6 }}>{r.body}</p>
+              <div className="card" key={r.title} style={{ padding: "2.5rem", borderLeft: "4px solid var(--shell-red)" }}>
+                <h4 style={{ marginBottom: "1rem", fontSize: "1.25rem" }}>{r.title}</h4>
+                <p style={{ fontSize: "1rem", color: "var(--shell-gray)", lineHeight: 1.6 }}>{r.body}</p>
               </div>
             ))}
           </div>
