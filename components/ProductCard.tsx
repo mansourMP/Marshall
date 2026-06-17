@@ -17,17 +17,13 @@ type ProductCardProps = {
   lang?: string;
 };
 
+// Product images — replace with real photos
 const PRODUCT_IMAGES: Record<string, string> = {
-  "premium-engine-oil":
-    "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&h=400&fit=crop&auto=format",
-  "standard-engine-oil":
-    "https://images.unsplash.com/photo-1621600411689-2f2d3b6c9e8f?w=600&h=400&fit=crop&auto=format",
-  antifreeze:
-    "https://images.unsplash.com/photo-1631531780022-3e64b0b6e4e7?w=600&h=400&fit=crop&auto=format",
-  "brake-fluid":
-    "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop&auto=format",
-  grease:
-    "https://images.unsplash.com/photo-1530124566589-75a5c72e28c1?w=600&h=400&fit=crop&auto=format",
+  "premium-engine-oil": "",
+  "standard-engine-oil": "",
+  antifreeze: "",
+  "brake-fluid": "",
+  grease: "",
 };
 
 export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
@@ -35,11 +31,15 @@ export function ProductCard({ product, lang = "ru" }: ProductCardProps) {
   return (
     <article className="card" style={{ overflow: "hidden" }}>
       <div className="card__image" style={{ position: "relative", height: "180px", background: "#F8FAFC", display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <img
-          src={PRODUCT_IMAGES[product.id] ?? "/images/product-premium-oil.svg"}
-          alt={product.name}
-          style={{ width: "100%", height: "100%", objectFit: "contain", padding: "0.5rem" }}
-        />
+        {PRODUCT_IMAGES[product.id] ? (
+          <img
+            src={PRODUCT_IMAGES[product.id]}
+            alt={product.name}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        ) : (
+          <div style={{ color: "#CBD5E1", fontSize: "4rem", fontWeight: 300 }}>—</div>
+        )}
         {product.highlight && (
           <span
             style={{
