@@ -22,11 +22,11 @@ export function Hero({ headline, subheadline, imageUrl, children }: HeroProps) {
             {imageUrl ? (
               <img src={imageUrl} alt="Marshal Hero" className="hero__image" />
             ) : (
-              <div className="hero__image-placeholder">
-                <div className="hero__image-shape hero__image-shape--1" />
-                <div className="hero__image-shape hero__image-shape--2" />
-                <div className="hero__image-shape hero__image-shape--3" />
-              </div>
+              <img
+                src="/brand/hero-chemistry.svg"
+                alt=""
+                style={{ width: "100%", height: "auto", maxWidth: 500 }}
+              />
             )}
           </div>
         </div>
@@ -70,36 +70,6 @@ export function Hero({ headline, subheadline, imageUrl, children }: HeroProps) {
           height: auto;
           border-radius: var(--radius-lg);
           box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-        }
-        .hero__image-placeholder {
-          aspect-ratio: 1 / 1;
-          background: var(--shell-gray-light);
-          border-radius: var(--radius-lg);
-          position: relative;
-          overflow: hidden;
-          box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
-        }
-        .hero__image-shape {
-          position: absolute;
-          border-radius: 50%;
-        }
-        .hero__image-shape--1 {
-          width: 80%; height: 80%;
-          background: var(--shell-yellow);
-          top: -10%; right: -10%;
-          opacity: 0.6;
-        }
-        .hero__image-shape--2 {
-          width: 60%; height: 60%;
-          background: var(--shell-red);
-          bottom: -5%; left: -5%;
-          opacity: 0.1;
-        }
-        .hero__image-shape--3 {
-          width: 40%; height: 40%;
-          border: 2px solid var(--shell-red);
-          top: 30%; left: 20%;
-          opacity: 0.2;
         }
         @media (max-width: 1024px) {
           .hero__layout {

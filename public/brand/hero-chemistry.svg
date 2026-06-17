@@ -1,0 +1,56 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="230" fill="#F7F7F7"/>
+
+  <!-- Large oil drop -->
+  <path d="M250 120C250 120 180 210 180 270C180 308.6 211.4 340 250 340C288.6 340 320 308.6 320 270C320 210 250 120 250 120Z" fill="url(#oilGrad)" opacity="0.9"/>
+
+  <!-- Oil drop highlight -->
+  <path d="M250 160C250 160 210 220 210 260C210 282 227.9 300 250 300C272.1 300 290 282 290 260C290 220 250 160 250 160Z" fill="white" opacity="0.15"/>
+
+  <!-- Small molecule structure (benzene ring style) -->
+  <g transform="translate(320, 150)" opacity="0.7">
+    <polygon points="30,0 60,18 60,54 30,72 0,54 0,18" fill="none" stroke="var(--shell-red)" stroke-width="2.5"/>
+    <circle cx="30" cy="0" r="8" fill="#FBCE07" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <circle cx="60" cy="18" r="8" fill="#FBCE07" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <circle cx="60" cy="54" r="8" fill="var(--shell-red)" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <circle cx="30" cy="72" r="8" fill="#FBCE07" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <circle cx="0" cy="54" r="8" fill="var(--shell-red)" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <circle cx="0" cy="18" r="8" fill="#FBCE07" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <!-- Double bonds -->
+    <line x1="30" y1="4" x2="60" y2="14" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <line x1="30" y1="4" x2="0" y2="14" stroke="var(--shell-red)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Small beaker / flask -->
+  <g transform="translate(100, 320)" opacity="0.6">
+    <path d="M10,0 L30,0 L35,40 L5,40 Z" fill="none" stroke="var(--shell-red)" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="0" y="40" width="40" height="15" rx="2" fill="none" stroke="var(--shell-red)" stroke-width="2"/>
+    <line x1="5" y1="10" x2="15" y2="10" stroke="var(--shell-red)" stroke-width="1.5"/>
+    <!-- Liquid inside -->
+    <rect x="8" y="20" width="24" height="18" rx="1" fill="#FBCE07" opacity="0.5"/>
+  </g>
+
+  <!-- Small gear / industrial -->
+  <g transform="translate(80, 160)" opacity="0.5">
+    <circle cx="25" cy="25" r="12" fill="none" stroke="var(--shell-red)" stroke-width="2.5"/>
+    <circle cx="25" cy="25" r="6" fill="var(--shell-red)" opacity="0.4"/>
+    <rect x="23" y="8" width="4" height="10" rx="1" fill="var(--shell-red)"/>
+    <rect x="23" y="32" width="4" height="10" rx="1" fill="var(--shell-red)"/>
+    <rect x="8" y="23" width="10" height="4" rx="1" fill="var(--shell-red)"/>
+    <rect x="32" y="23" width="10" height="4" rx="1" fill="var(--shell-red)"/>
+  </g>
+
+  <!-- Water/oil droplets -->
+  <ellipse cx="370" cy="300" rx="12" ry="18" fill="#FBCE07" opacity="0.5" transform="rotate(20 370 300)"/>
+  <ellipse cx="390" cy="340" rx="8" ry="12" fill="var(--shell-red)" opacity="0.3" transform="rotate(-15 390 340)"/>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="oilGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DD1D21"/>
+      <stop offset="50%" stop-color="#FBCE07"/>
+      <stop offset="100%" stop-color="#DD1D21"/>
+    </linearGradient>
+  </defs>
+</svg>
